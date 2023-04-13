@@ -33,8 +33,8 @@ experience:
     - name: Data Scientist
       company: Zummit Infolabs
       duration: 'Jan 2023 - Current'
-      content: "- Managed a team of 30 interns and delivered 10 ready to deploy ML models <br>
-                - Worked on optimizing state-of-the-art ML algorithms for 5+ Projects involving CV, NLP and Predictive Analytics"
+      content: "-- Managed a team of 30 interns and delivered 10 ready to deploy ML models  \n
+                -- Worked on optimizing state-of-the-art ML algorithms for 5+ Projects involving CV, NLP and Predictive Analytics"
 
     - name: Data Science Trainee
       company: AlmaBetter
@@ -49,8 +49,8 @@ experience:
     - name: Senior Investigation Specialist
       company: Amazon
       duration: 'Oct 2020 - Sept 2022'
-      content: "- Consulted global level operation policy stakeholders to optimize Standard Operating Procedure.<br>
-                - Expedited over 400+ quality audits and counselled as a subject matter expert to amplify quality"
+      content: "-- Consulted global level operation policy stakeholders to optimize Standard Operating Procedure.    \n
+                -- Expedited over 400+ quality audits and counselled as a subject matter expert to amplify quality"
 
     - name: Data Science Intern
       company: Corizo.in
@@ -138,11 +138,11 @@ portfolio:
       description: This project is a part of my traineeship at AlmaBetter. The goal of the project is to derive actionable insights and build a ML model for given Coronary Heart Disease dataset.
 
     - name: Next Word Suggestion
-      image: "assets/images/portfolio/project_7.jpg"
-      url: https://github.com/shubhamwankar/NLP_NextWordSuggestion
+      image: 'images/portfolio/project_7.jpg'
+      url: "https://github.com/shubhamwankar/NLP_NextWordSuggestion"
       description: This project is a part of my internship at Zummit Infolabs. I have worked on creating a unique model using transfer learning, in which I have used the pre-trained model "distilled-bert-uncased" and fine tuned it over the dataset "empathetic dialogues".
 
     - name: Book Recommendation System
-      image: "assets/images/portfolio/project_8.png"
+      image: 'images/portfolio/project_8.png'
       url: https://github.com/shubhamwankar/Book_Recommendation_System
       description: This is project is a part of my internship with Zummit Infolabs. I have built a custom book recommendation system using collaborative filtering and Nearest Neighbours algorithm.
