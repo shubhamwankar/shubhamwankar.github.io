@@ -1,6 +1,6 @@
 ########################## hero area ##########################
 hero:
-  title: "Hi, I'm Shubham Wankar"
+  title: "Shubham Wankar"
 
   # animated text loop
   occupations:
@@ -17,8 +17,8 @@ hero:
 about:
   enable: true
   image: 'images/profile.jpeg'
-  title: 'THIS IS ME'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  title: 'About Me'
+  content: "As a Data Scientist with a passion for algorithmic trading, I offer freelancing services that leverage the power of data to make informed investment decisions. With expertise in machine learning, statistical analysis, and programming, I am skilled in designing and implementing trading strategies that optimize returns and minimize risk. Whether you are an individual investor or a financial institution, I can collaborate with you to develop data-driven solutions that create value and deliver results. Let's unlock the potential of data-driven investing together."
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
@@ -30,15 +30,16 @@ experience:
   enable: true
   title: 'EXPERIENCE'
   experience_list:
-    - name: Junior Data Scientist
+    - name: Data Scientist
       company: Zummit Infolabs
       duration: 'Jan 2023 - Current'
-      content: Working on latest technologies such as Reinforcement Learning, Deep Learning and Natural Language Processing
+      content: "- Managed a team of 30 interns and delivered 10 ready to deploy ML models <br>
+                - Worked on optimizing state-of-the-art ML algorithms for 5+ Projects involving CV, NLP and Predictive Analytics"
 
     - name: Data Science Trainee
       company: AlmaBetter
       duration: 'Oct 2022 - Current'
-      content: Working on live ML business cases
+      content: Working on live ML Projects such as [Cardiovascular Disease Prediction](https://github.com/shubhamwankar/heart-disease-prediction) and [AirBnb EDA](https://github.com/shubhamwankar/airbnb-eda)
 
     - name: Data Science and Business Analytics Intern
       company: The Sparks Foundation
@@ -48,7 +49,8 @@ experience:
     - name: Senior Investigation Specialist
       company: Amazon
       duration: 'Oct 2020 - Sept 2022'
-      content: "Consulted global level operation policy stakeholders to optimize Standard Operating Procedure. Expedited over 400+ quality audits and counselled as a subject matter expert to amplify quality"
+      content: "- Consulted global level operation policy stakeholders to optimize Standard Operating Procedure.<br>
+                - Expedited over 400+ quality audits and counselled as a subject matter expert to amplify quality"
 
     - name: Data Science Intern
       company: Corizo.in
@@ -95,7 +97,7 @@ funfacts:
 
     - name: 'LIVE PROJECTS WORKED'
       image: 'images/icons/project.png'
-      count: '8'
+      count: '13'
 
     - name: 'WEBSITES BUILT'
       image: 'images/icons/web-development.png'
@@ -120,4 +122,27 @@ portfolio:
       url: https://github.com/shubhamwankar/customer-segmentation/blob/main/Customer%20Segmentation%20with%20Clustering.ipynb
       description: The aim of this project was to find a way to classify customers based on their purchases. Built a Recency-Frequency-Monetary (RFM) model for classifying customers into segments.
 
-      
+    - name: Stock Market Prediction using textual and numerical data
+      image: 'images/portfolio/project_4.jpg'
+      url: "https://github.com/shubhamwankar/TSF-internship/blob/main/stock-prediction-hybrid/Task%20%237%20Stock%20Market%20Prediction%20using%20Numerical%20and%20Textual%20Analysis%20.ipynb"
+      description: This project is a part of my internship at The Sparks Foundation. I have implemented state-of-the-art Conv-LSTM Models and News Sentiment Analysis for Stock Price Prediction.
+
+    - name: AirBnb EDA
+      image: 'images/portfolio/project_5.png'
+      url: "https://github.com/shubhamwankar/airbnb-eda/blob/main/AirBnb%20EDA%20Project.ipynb"
+      description: This project is a part of traineeship at AlmaBetter. The goal is to perform exploratory data analysis on the AirBnb NYC 2019 dataset and draw insights from the data that can help the business grow.
+
+    - name: Heart Disease Prediction
+      image: 'images/portfolio/project_6.jpg'
+      url: https://github.com/shubhamwankar/heart-disease-prediction
+      description: This project is a part of my traineeship at AlmaBetter. The goal of the project is to derive actionable insights and build a ML model for given Coronary Heart Disease dataset.
+
+    - name: Next Word Suggestion
+      image: "assets/images/portfolio/project_7.jpg"
+      url: https://github.com/shubhamwankar/NLP_NextWordSuggestion
+      description: This project is a part of my internship at Zummit Infolabs. I have worked on creating a unique model using transfer learning, in which I have used the pre-trained model "distilled-bert-uncased" and fine tuned it over the dataset "empathetic dialogues".
+
+    - name: Book Recommendation System
+      image: "assets/images/portfolio/project_8.png"
+      url: https://github.com/shubhamwankar/Book_Recommendation_System
+      description: This is project is a part of my internship with Zummit Infolabs. I have built a custom book recommendation system using collaborative filtering and Nearest Neighbours algorithm.
