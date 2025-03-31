@@ -4,6 +4,8 @@ import { motion } from "framer-motion"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ChevronDown } from "lucide-react"
+import Image from "next/image"
+
 
 export default function Hero() {
   const scrollToProjects = () => {
@@ -51,8 +53,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.5 }}
           >
-            I build machine learning models and AI systems that solve real-world problems. Specialized in predictive
-            analytics, natural language processing, and computer vision.
+            I build machine learning models and AI systems that solve real-world problems. Specialized in building Gen AI products, Prompt Engineering and LLM Finetuning.
           </motion.p>
 
           <motion.div
@@ -81,26 +82,12 @@ export default function Hero() {
           <div className="relative w-full max-w-lg aspect-square">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary/20 to-secondary/20 blur-3xl" />
             <div className="relative bg-gradient-to-r from-primary to-secondary rounded-full w-full h-full flex items-center justify-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="w-1/2 h-1/2 text-white"
-              >
-                <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" />
-                <path d="M12 2v2" />
-                <path d="M12 20v2" />
-                <path d="m4.93 4.93 1.41 1.41" />
-                <path d="m17.66 17.66 1.41 1.41" />
-                <path d="M2 12h2" />
-                <path d="M20 12h2" />
-                <path d="m6.34 17.66-1.41 1.41" />
-                <path d="m19.07 4.93-1.41 1.41" />
-              </svg>
+            <Image
+                src="/Hero.jpeg?height=400&width=400"
+                alt="Professional portrait"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </motion.div>

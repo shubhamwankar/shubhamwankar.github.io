@@ -28,7 +28,7 @@ export default function About() {
           >
             <div className="relative w-full max-w-md aspect-[3/4] overflow-hidden rounded-lg shadow-xl">
               <Image
-                src="/Post Peak - Tux.jpg?height=400&width=300"
+                src="/Profile.jpg?height=400&width=300"
                 alt="Professional portrait"
                 fill
                 className="object-cover"

@@ -59,7 +59,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/shubham-wankar/"
+                target="_blank"
                 className="size-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300"
               >
                 <svg
@@ -78,7 +79,8 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://github.com/shubhamwankar/"
+                target="_blank"
                 className="size-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300"
               >
                 <svg
@@ -95,7 +97,8 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://x.com/shubhamwankar10"
+                target="_blank"
                 className="size-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300"
               >
                 <svg

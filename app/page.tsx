@@ -27,7 +27,7 @@ export default function Home() {
       { name: "Scikit-learn", level: 90 },
       { name: "SQL", level: 75 },
       { name: "Micrsoft Azure", level: 70 },
-      { name: "Docker", level: 65 },
+      { name: "FastAPI", level: 80 },
       { name: "React", level: 60 },
     ],
     soft: [
@@ -35,7 +35,7 @@ export default function Home() {
       "Problem Solving",
       "Team Collaboration",
       "Research",
-      "Technical Writing",
+      "SDLC",
       "Project Management",
     ],
   }
@@ -44,32 +44,29 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "Predictive Analytics Dashboard",
+      title: "LLM Finetuning: Next Word Prediction",
       description:
-        "Built an interactive dashboard for visualizing machine learning predictions with real-time data processing.",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Python", "TensorFlow", "Flask", "React"],
-      github: "https://github.com/username/project1",
-      demo: "https://demo-link.com",
+        "Finetuned Distil-BERT model from HuggingFace for next word prediction task on a custom dataset, resulting in a Perplexity Score of 8.25",
+      image: "/Next Word Prediction Project.png?height=300&width=400",
+      tags: ["Python", "HuggingFace", "FastAPI",],
+      github: "https://github.com/shubhamwankar/NLP_NextWordSuggestion",
       featured: true,
     },
     {
       id: 2,
-      title: "Natural Language Processing System",
-      description: "Developed an NLP system that analyzes customer feedback to identify trends and sentiment.",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Python", "NLTK", "spaCy", "PyTorch"],
-      github: "https://github.com/username/project2",
-      demo: null,
+      title: "Text-2-SQL LLM App",
+      description: "Created a robust Text to SQL application utilizing Gemini 1.5 Flash & Langchain to transform natural language questions into SQL queries and return results as natural language responses",
+      image: "/Text-2-SQL LLM Agent Project.png?height=300&width=400",
+      tags: ["Python", "LangChain", "Gemini API", "Streamlit"],
+      github: "https://github.com/shubhamwankar/text2sql-langchain",
     },
     {
       id: 3,
-      title: "Computer Vision Object Detection",
-      description: "Created a real-time object detection system using state-of-the-art computer vision algorithms.",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Python", "OpenCV", "YOLO", "TensorFlow"],
-      github: "https://github.com/username/project3",
-      demo: "https://demo-link.com",
+      title: "Heart Disease Prediction",
+      description: "Built a state of the art Heart Disease Prediction model with Light GBM Classifier and deployed it using FastAPI",
+      image: "/Heart Disease Prediction Project.png?height=300&width=400",
+      tags: ["Python", "FastAPI", "EDA", "Classification"],
+      github: "https://github.com/shubhamwankar/heart-disease-prediction",
     },
   ]
 
@@ -81,11 +78,11 @@ export default function Home() {
       company: "Accenture",
       period: "2024-Present",
       description:
-        "Working with a Global Banking client and building Gen AI solution",
+        "Working with a Global Banking client and building Gen AI solutions.",
       achievements: [
-        "Implemented a recommendation system that increased user engagement by 27%",
-        "Led a team of 5 data scientists on a major NLP project",
-        "Reduced model training time by 40% through optimization",
+        "Built a Feedback writing agent using Azure Promptflow and Azure OpenAI with LLM-as-evaluator model",
+        "Created a prototype for perfoming Defect Quality Check using Gen AI",
+        "Implemented a semantic re-ranking RAG model for efficient retrieval of chunks leading to better quality of response",
       ],
     },
     {
@@ -93,11 +90,11 @@ export default function Home() {
       role: "Data Scientist",
       company: "Invictus Performance Lab",
       period: "2023 - 2024",
-      description: "Designed and implemented machine learning models for various business applications.",
+      description: "Acted as Lead Data Scientist building data systems and predictive models.",
       achievements: [
-        "Built a fraud detection system with 94% accuracy",
-        "Deployed 5+ models to production using CI/CD pipelines",
-        "Mentored junior engineers on best practices in ML",
+        "Built an end-to-end data pipelines with Google Appscript and Python, from data ingestion to 3+ dashboards",
+        "Created 5+ dashboards for Gujarat Giants (WPL) and Bengaluru Torpedoes (Prime Volleyball) providing real time actionable insights",
+        "Automated 7+ daily and weekly reports cutting down manual efforts by 75%",
       ],
     },
     {
@@ -105,11 +102,11 @@ export default function Home() {
       role: "Senior Risk Analyst",
       company: "Amazon",
       period: "2017-2022",
-      description: "Analyzed large datasets to extract meaningful insights for business decisions.",
+      description: "Analysed intellectual property rights risk while dealing with multiple stakeholders.",
       achievements: [
-        "Created automated reporting dashboards used by executive team",
-        "Identified patterns that led to $2M in cost savings",
-        "Transitioned team from Excel-based analysis to Python",
+        "Optimized the Standard Operating Procedure, enhancing clarity and reducing working time by 20% through data analysis and process improvement",
+        "Trained and mentored 25 junior team members, achieving an overall team productivity of 95% and a quality rating of 98%",
+        "Collaborated cross-functionally to identify and mitigate risks posed by recurring bad actors, utilizing data analysis techniques to inform preventive measures",
       ],
     },
   ]
