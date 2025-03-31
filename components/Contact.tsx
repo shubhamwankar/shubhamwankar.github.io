@@ -84,7 +84,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-muted-foreground">hello@example.com</p>
+                  <p className="text-muted-foreground">shubham.wankar23@gmail.com</p>
                 </div>
               </div>
 
@@ -94,7 +94,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Phone</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+91 8978996233</p>
                 </div>
               </div>
 
@@ -104,7 +104,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold">Location</h4>
-                  <p className="text-muted-foreground">San Francisco, California</p>
+                  <p className="text-muted-foreground">Bengaluru, Karnataka</p>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function Contact() {
               <h4 className="font-semibold mb-4">Connect with me</h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/shubham-wankar/"
                   className="size-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <svg
@@ -132,7 +132,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/shubhamwankar/"
                   className="size-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <svg
@@ -149,7 +149,7 @@ export default function Contact() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/shubhamwankar10"
                   className="size-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <svg
