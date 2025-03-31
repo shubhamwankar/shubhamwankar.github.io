@@ -114,6 +114,7 @@ export default function Contact() {
               <div className="flex space-x-4">
                 <a
                   href="https://www.linkedin.com/in/shubham-wankar/"
+                  target="_blank"
                   className="size-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <svg
@@ -133,6 +134,7 @@ export default function Contact() {
                 </a>
                 <a
                   href="https://github.com/shubhamwankar/"
+                  target="_blank"
                   className="size-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <svg
@@ -150,6 +152,7 @@ export default function Contact() {
                 </a>
                 <a
                   href="https://x.com/shubhamwankar10"
+                  target="_blank"
                   className="size-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <svg
