@@ -32,7 +32,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.5 }}
           >
             <span className="text-sm md:text-base font-medium text-primary mb-4 block">
-              Data Scientist & ML Engineer
+              Data Scientist & AI/ML Engineer
             </span>
           </motion.div>
 

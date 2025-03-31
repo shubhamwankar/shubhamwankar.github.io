@@ -28,7 +28,7 @@ export default function About() {
           >
             <div className="relative w-full max-w-md aspect-[3/4] overflow-hidden rounded-lg shadow-xl">
               <Image
-                src="/placeholder.svg?height=400&width=300"
+                src="/Post Peak - Tux.jpg?height=400&width=300"
                 alt="Professional portrait"
                 fill
                 className="object-cover"
@@ -93,18 +93,18 @@ export default function About() {
               <div>
                 <h4 className="font-semibold text-lg mb-2">Education</h4>
                 <ul className="space-y-1 text-sm text-muted-foreground">
-                  <li>Ph.D. in Computer Science, Stanford University</li>
-                  <li>M.S. in Machine Learning, MIT</li>
-                  <li>B.S. in Mathematics, UC Berkeley</li>
+                  <li>M.S. in Data Science, Liverpool John Moores University (2021-2023)</li>
+                  <li>PG.D in Data Science, IIIT-B (2020-2021)</li>
+                  <li>B.Tech. in Mechanical Engineering, Jawaharlal Nehru Technology University (2012-2016)</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-semibold text-lg mb-2">Interests</h4>
                 <ul className="space-y-1 text-sm text-muted-foreground">
                   <li>Deep Reinforcement Learning</li>
-                  <li>Ethical AI & Responsible ML</li>
-                  <li>Computational Statistics</li>
-                  <li>Open Source Contributions</li>
+                  <li>Agentic AI</li>
+                  <li>RAG</li>
+                  <li>Prompt Engineering</li>
                 </ul>
               </div>
             </motion.div>

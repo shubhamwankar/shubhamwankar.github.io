@@ -64,7 +64,7 @@ export default function Header() {
           transition={{ duration: 0.2 }}
         >
           <Link href="/#hero" onClick={() => scrollToSection("hero")}>
-            <span className="tracking-tight">Jane.AI</span>
+            <span className="tracking-tight">Shubham Wankar</span>
           </Link>
         </motion.div>
 

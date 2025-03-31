@@ -26,7 +26,7 @@ export default function Home() {
       { name: "PyTorch", level: 80 },
       { name: "Scikit-learn", level: 90 },
       { name: "SQL", level: 75 },
-      { name: "AWS/GCP", level: 70 },
+      { name: "Micrsoft Azure", level: 70 },
       { name: "Docker", level: 65 },
       { name: "React", level: 60 },
     ],
@@ -77,11 +77,11 @@ export default function Home() {
   const experiences = [
     {
       id: 1,
-      role: "Senior Data Scientist",
-      company: "Tech Innovations Inc.",
-      period: "2021 - Present",
+      role: "AI/ML Senior Engineer",
+      company: "Accenture",
+      period: "2024-Present",
       description:
-        "Lead data scientist for multiple machine learning projects. Developed predictive models that increased operational efficiency by 35%.",
+        "Working with a Global Banking client and building Gen AI solution",
       achievements: [
         "Implemented a recommendation system that increased user engagement by 27%",
         "Led a team of 5 data scientists on a major NLP project",
@@ -90,9 +90,9 @@ export default function Home() {
     },
     {
       id: 2,
-      role: "Machine Learning Engineer",
-      company: "AI Solutions Ltd.",
-      period: "2018 - 2021",
+      role: "Data Scientist",
+      company: "Invictus Performance Lab",
+      period: "2023 - 2024",
       description: "Designed and implemented machine learning models for various business applications.",
       achievements: [
         "Built a fraud detection system with 94% accuracy",
@@ -102,9 +102,9 @@ export default function Home() {
     },
     {
       id: 3,
-      role: "Data Analyst",
-      company: "Data Insights Corp.",
-      period: "2016 - 2018",
+      role: "Senior Risk Analyst",
+      company: "Amazon",
+      period: "2017-2022",
       description: "Analyzed large datasets to extract meaningful insights for business decisions.",
       achievements: [
         "Created automated reporting dashboards used by executive team",

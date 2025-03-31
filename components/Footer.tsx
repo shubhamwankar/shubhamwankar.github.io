@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 py-12">
         <div className="grid gap-8 md:grid-cols-3">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">Jane.AI</h2>
+            <h2 className="text-2xl font-bold">Shubham Wankar</h2>
             <p className="text-gray-300 text-sm max-w-md">
               Data scientist and machine learning engineer passionate about building intelligent systems that solve
               real-world problems.
@@ -116,7 +116,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-300 text-sm">© {new Date().getFullYear()} Jane.AI. All rights reserved.</p>
+          <p className="text-gray-300 text-sm">© {new Date().getFullYear()} Shubham Wankar. All rights reserved.</p>
           <motion.button
             onClick={scrollToTop}
             className="mt-4 sm:mt-0 size-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-300"
