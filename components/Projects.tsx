@@ -1,189 +1,123 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Github, ExternalLink } from "lucide-react"
+import { motion } from "framer-motion";
+import { Github } from "lucide-react";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 
 interface Project {
-  id: number
-  title: string
-  description: string
-  image: string
-  tags: string[]
-  github: string
-  demo: string | null
-  featured?: boolean
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  githubUrl: string;
 }
 
-interface ProjectsProps {
-  projects: Project[]
-}
+const projects: Project[] = [
+  {
+    title: "Text-2-SQL LLM App",
+    description:
+      "Created a robust Text to SQL application utilizing Gemini 1.5 Flash & Langchain to transform natural language questions into SQL queries and return results as natural language responses",
+    image: "/Text-2-SQL LLM Agent Project.png?height=300&width=400",
+    technologies: ["Python", "LangChain", "Gemini API", "Streamlit"],
+    githubUrl: "https://github.com/shubhamwankar/text2sql-langchain",
+  },
+  {
+    title: "LLM Finetuning: Next Word Prediction",
+    description:
+      "Finetuned Distil-BERT model from HuggingFace for next word prediction task on a custom dataset, resulting in a Perplexity Score of 8.25",
+    image: "/Next Word Prediction Project.png?height=300&width=400",
+    technologies: ["Python", "HuggingFace", "FastAPI"],
+    githubUrl: "https://github.com/shubhamwankar/NLP_NextWordSuggestion",
+  },
+  {
+    title: "Heart Disease Prediction",
+    description:
+      "Built a state of the art Heart Disease Prediction model with Light GBM Classifier and deployed it using FastAPI",
+    image: "/Heart Disease Prediction Project.png?height=300&width=400",
+    technologies: ["Python", "FastAPI", "EDA", "Classification"],
+    githubUrl: "https://github.com/shubhamwankar/heart-disease-prediction",
+  },
+  {
+    title: "Customer Segmentation Analysis",
+    description:
+      "Performed RFM Analysis and built Clustering Algorithm to classify customers into segments such as Top, High Value, Low Value, Medium Value and Lost Customers",
+    image: "/Customer Segmentation Analysis Project.png?height=300&width=500",
+    technologies: ["Python", "Scikit-learn", "Matplotlib", "KNN"],
+    githubUrl: "https://github.com/shubhamwankar/customer-segmentation",
+  },
+  {
+    title: "Stock Price Prediction",
+    description:
+      "Built a hybrid CNN-LSTM  model for stock price / performance prediction using numerical analysis of historical stock price, and sentimental analysis of news headlines",
+    image: "/Stock Price Prediction Project.png?height=300&width=500",
+    technologies: ["Python", "TensorFlow", "Pandas", "Matplotlib", "Seaborn"],
+    githubUrl:
+      "https://github.com/shubhamwankar/TSF-internship/tree/main/stock-prediction-hybrid",
+  },
+];
 
-export default function Projects({ projects }: ProjectsProps) {
-  const [activeProject, setActiveProject] = useState<number | null>(null)
-
-  const featuredProject = projects.find((project) => project.featured)
-  const regularProjects = projects.filter((project) => !project.featured)
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
-  }
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: { y: 0, opacity: 1 },
-  }
-
+export default function Projects() {
   return (
-    <section id="projects" className="py-20 bg-white dark:bg-gray-900 px-4 sm:px-6">
-      <div className="container mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>
-          <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
-          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-            A selection of my most impactful machine learning and data science projects.
-          </p>
-        </motion.div>
-
-        {/* Featured Project */}
-        {featuredProject && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.7 }}
-            className="mb-16"
-          >
-            <h3 className="text-xl font-bold mb-6 text-center">Featured Project</h3>
-
-            <div className="grid lg:grid-cols-2 gap-8 items-center">
-              <motion.div whileHover={{ scale: 1.02 }} className="overflow-hidden rounded-lg shadow-lg">
-                <Image
-                  src={featuredProject.image || "/placeholder.svg"}
-                  alt={featuredProject.title}
-                  width={600}
-                  height={400}
-                  className="w-full object-cover transition-transform duration-300 hover:scale-105"
-                />
-              </motion.div>
-
-              <div className="space-y-4">
-                <h4 className="text-2xl font-bold">{featuredProject.title}</h4>
-                <p className="text-muted-foreground">{featuredProject.description}</p>
-
-                <div className="flex flex-wrap gap-2 my-4">
-                  {featuredProject.tags.map((tag, index) => (
-                    <span
-                      key={index}
-                      className="bg-gray-100 dark:bg-gray-800 text-muted-foreground text-xs px-3 py-1 rounded-full"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
-                <div className="flex gap-4 pt-2">
-                  <Button asChild variant="outline" size="sm">
-                    <Link href={featuredProject.github} target="_blank" rel="noopener noreferrer">
-                      <Github className="w-4 h-4 mr-2" />
-                      Code
-                    </Link>
-                  </Button>
-
-                  {featuredProject.demo && (
-                    <Button asChild size="sm">
-                      <Link href={featuredProject.demo} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </Link>
-                    </Button>
-                  )}
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        )}
-
-        {/* Regular Projects */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
-          {regularProjects.map((project) => (
+    <section id="projects" className="py-16">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {projects.map((project, index) => (
             <motion.div
-              key={project.id}
-              variants={itemVariants}
-              transition={{ duration: 0.5 }}
-              onMouseEnter={() => setActiveProject(project.id)}
-              onMouseLeave={() => setActiveProject(null)}
+              key={index}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              viewport={{ once: true }}
             >
-              <Card className="overflow-hidden h-full border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-lg">
-                <div className="relative aspect-video overflow-hidden">
-                  <Image
+              <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                <div className="overflow-hidden h-64">
+                  <img
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
-                    fill
-                    className="object-cover transition-transform duration-500 hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
                 </div>
-                <CardContent className="p-5">
-                  <h4 className="font-bold text-xl mb-2">{project.title}</h4>
-                  <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
-
-                  <div className="flex flex-wrap gap-2 my-4">
-                    {project.tags.map((tag, index) => (
-                      <span
-                        key={index}
-                        className="bg-gray-100 dark:bg-gray-800 text-muted-foreground text-xs px-2 py-1 rounded-full"
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                  <p className="text-muted-foreground mb-4">
+                    {project.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.technologies.map((tech, i) => (
+                      <Badge
+                        key={i}
+                        variant="outline"
+                        className="bg-primary/10 text-primary border-primary/20"
                       >
-                        {tag}
-                      </span>
+                        {tech}
+                      </Badge>
                     ))}
                   </div>
-
-                  <div className="flex gap-3 mt-4">
-                    <Button asChild variant="outline" size="sm">
-                      <Link href={project.github} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4 mr-1" />
-                        Code
-                      </Link>
-                    </Button>
-
-                    {project.demo && (
-                      <Button asChild size="sm">
-                        <Link href={project.demo} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4 mr-1" />
-                          Demo
-                        </Link>
-                      </Button>
-                    )}
-                  </div>
                 </CardContent>
+                <CardFooter className="p-6 pt-0">
+                  <Button variant="outline" className="w-full" asChild>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="mr-2 h-4 w-4" /> View on GitHub
+                    </a>
+                  </Button>
+                </CardFooter>
               </Card>
             </motion.div>
           ))}
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </section>
-  )
+  );
 }
-
