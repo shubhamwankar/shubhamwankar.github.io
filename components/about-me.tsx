@@ -17,7 +17,7 @@ const skills: Skill[] = [
   { name: "Azure", percentage: 75 },
   { name: "Prompt Engineering", percentage: 85 },
   { name: "LLM Finetuning", percentage: 75 },
-  { name: "Git", percentage: 80 },
+  { name: "Git", percentage: 85 },
 ];
 
 export default function AboutMe() {

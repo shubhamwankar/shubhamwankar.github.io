@@ -32,7 +32,7 @@ export default function ContactMe() {
                         href="mailto:john.doe@example.com"
                         className="text-foreground hover:text-primary transition-colors"
                       >
-                        shubham.waankar23@gmail.com
+                        shubham.wankar23@gmail.com
                       </a>
                     </div>
                     <div className="flex items-center">
