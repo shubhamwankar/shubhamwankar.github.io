@@ -68,7 +68,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://github.com/username"
+              href="https://github.com/shubhamwankar"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors"
@@ -76,7 +76,7 @@ export default function Navbar() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com/in/username"
+              href="https://linkedin.com/in/shubham-wankar"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors"
@@ -84,7 +84,7 @@ export default function Navbar() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://twitter.com/username"
+              href="https://twitter.com/ShubhamWankar10"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-colors"
