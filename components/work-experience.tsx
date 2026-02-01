@@ -18,8 +18,8 @@ const experiences: WorkExperienceItem[] = [
     startDate: "Sep-2024",
     endDate: "Present",
     achievements: [
-      "Built a Feedback writing agent using Azure Promptflow and Azure OpenAI with LLM-as-evaluator model",
-      "Created a prototype for perfoming Defect Quality Check using Gen AI",
+      "Designed and developed a Gen AI KPI and Feedback summarizer for a Global Bank client, reducing the manual effort by ~75% and 80% improvement in latency.",
+      "Built a RESTAPI using FastAPI for PII detection and removal with a latency of ~350ms.",
       "Implemented a semantic re-ranking RAG model for efficient retrieval of chunks leading to better quality of response",
     ],
   },

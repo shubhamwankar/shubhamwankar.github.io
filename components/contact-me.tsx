@@ -29,7 +29,7 @@ export default function ContactMe() {
                     <div className="flex items-center">
                       <Mail className="h-5 w-5 text-primary mr-3" />
                       <a
-                        href="mailto:john.doe@example.com"
+                        href="mailto:shubhamwankar23@gmail.com"
                         className="text-foreground hover:text-primary transition-colors"
                       >
                         shubham.wankar23@gmail.com
