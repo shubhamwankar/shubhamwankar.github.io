@@ -80,8 +80,8 @@ export default function Hero() {
           className="bg-primary hover:bg-primary/90"
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "/Shubham Wankar 2025.pdf";
-            link.download = "Shubham Wankar 2025.pdf";
+            link.href = "/Shubham Wankar 2026.pdf";
+            link.download = "Shubham Wankar 2026.pdf";
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
