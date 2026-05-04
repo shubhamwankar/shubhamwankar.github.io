@@ -13,14 +13,23 @@ interface WorkExperienceItem {
 
 const experiences: WorkExperienceItem[] = [
   {
+    role: "Data Science Specialist",
+    company: "UBS",
+    startDate: "April-2026",
+    endDate: "Present",
+    achievements: [
+      "Built a custom Invoice Extraction model using Azure Document Intelligence to extract key invoice fields reducing manual extraction time by 60%",
+    ]
+  },
+  {
     role: "Senior AI/ML Engineer",
     company: "Accenture",
     startDate: "Sep-2024",
-    endDate: "Present",
+    endDate: "Apr-2026",
     achievements: [
-      "Designed and developed a Gen AI KPI and Feedback summarizer for a Global Bank client, reducing the manual effort by ~75% and 80% improvement in latency.",
+      "Designed and developed a Gen AI KPI and Feedback summarizer for yearly reviews of high level executives, reducing the manual effort by ~75% and 80% improvement in latency.",
       "Built a RESTAPI using FastAPI for PII detection and removal with a latency of ~350ms.",
-      "Implemented a semantic re-ranking RAG model for efficient retrieval of chunks leading to better quality of response",
+      "Created a POC for doing Defect Quality Checks using LLM with a structured evaluation",
     ],
   },
   {

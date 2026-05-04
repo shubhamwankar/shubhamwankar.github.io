@@ -35,8 +35,8 @@ export default function AboutMe() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <p className="text-muted-foreground mb-6">
-              I am a passionate Data Scientist with over 7+ years of experience
-              in developing AI/ML solutions for real-world problems. My
+              I am a passionate Data Scientist with over 9+ years of experience
+              in developing Data Science and Agentic AI solutions for real-world problems. My
               expertise lies in building Gen AI applications, Prompt Engineering
               and LLM Finetuning. I have a strong foundation in Python and core
               machine learning and deep learning concepts.
