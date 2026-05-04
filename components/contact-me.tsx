@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Twitter } from "@/components/icons";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
