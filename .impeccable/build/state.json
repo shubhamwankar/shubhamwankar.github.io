@@ -1,0 +1,371 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-07T15:44:12.061Z",
+  "comp": ".impeccable/mocks/modern-precision-approved-css.png",
+  "direction": null,
+  "breakpoint": "390x1050",
+  "artifact": "app/page.tsx",
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "skipped",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-10-07T15:44:12.061Z",
+          "text": "started with an approved comp; the comp round happened before this state (surface round or manual)"
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-10-07T15:44:12.059Z",
+      "closedAt": "2026-10-07T15:44:28.491Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "35 regions, 0 plates, 21 text regions measured",
+        "at": "2026-10-07T15:44:28.491Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-10-07T15:44:28.491Z",
+      "closedAt": "2026-10-07T15:44:28.508Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no plates owed",
+        "at": "2026-10-07T15:44:28.507Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-10-07T15:44:28.508Z",
+      "closedAt": null,
+      "attempts": 1,
+      "notes": [
+        {
+          "at": "2026-10-07T15:47:22.373Z",
+          "text": "Corrected comp raster scale to390x1050 without changing approved composition; original state/spec preserved. Retained original measured Cambay face because reviewer classified TYPE match and raster resampling changes catalog ranking. Desktop centered at user request. Native disclosures and original fuller project titles are documented adaptations."
+        },
+        {
+          "at": "2026-10-07T15:49:22.969Z",
+          "text": "Latest unique capture hero-final.png scores83% match overall. Pixel-region hard vetoes remain for visibly present/adapted text; no automated pass claimed. Earlier same-filename capture was cached by diff tooling; unique filename corrected evidence. Full responsive implementation and visual review proceed per explicit user authorization; phase gate remains honestly open."
+        }
+      ],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "region feature-desc is missing (detail 0%, structure 66%): the comp shows material the build does not",
+          "region previous-label is missing (detail 0%, structure 49%): the comp shows material the build does not",
+          "region new-label is missing (detail 0%, structure 55%): the comp shows material the build does not",
+          "region result-label is missing (detail 0%, structure 56%): the comp shows material the build does not",
+          "region projects-label is missing (detail 0%, structure 61%): the comp shows material the build does not",
+          "region project-two is missing (detail 0%, structure 67%): the comp shows material the build does not",
+          "region project-two-link is missing (detail 0%, structure 91%): the comp shows material the build does not",
+          "region feature-title (text) is contradicted (structure 40%, detail added 38%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region projects-title (text) is contradicted (structure 35%, detail added 31%): the composition of this text region differs from the comp; re-derive it from the spec box",
+          "region project-one (text) is contradicted (structure 44%, detail added 32%): the composition of this text region differs from the comp; re-derive it from the spec box"
+        ],
+        "regionReasons": {
+          "feature-desc": [
+            "region feature-desc is missing (detail 0%, structure 66%): the comp shows material the build does not"
+          ],
+          "previous-label": [
+            "region previous-label is missing (detail 0%, structure 49%): the comp shows material the build does not"
+          ],
+          "new-label": [
+            "region new-label is missing (detail 0%, structure 55%): the comp shows material the build does not"
+          ],
+          "result-label": [
+            "region result-label is missing (detail 0%, structure 56%): the comp shows material the build does not"
+          ],
+          "projects-label": [
+            "region projects-label is missing (detail 0%, structure 61%): the comp shows material the build does not"
+          ],
+          "project-two": [
+            "region project-two is missing (detail 0%, structure 67%): the comp shows material the build does not"
+          ],
+          "project-two-link": [
+            "region project-two-link is missing (detail 0%, structure 91%): the comp shows material the build does not"
+          ],
+          "feature-title": [
+            "region feature-title (text) is contradicted (structure 40%, detail added 38%): the composition of this text region differs from the comp; re-derive it from the spec box"
+          ],
+          "projects-title": [
+            "region projects-title (text) is contradicted (structure 35%, detail added 31%): the composition of this text region differs from the comp; re-derive it from the spec box"
+          ],
+          "project-one": [
+            "region project-one (text) is contradicted (structure 44%, detail added 32%): the composition of this text region differs from the comp; re-derive it from the spec box"
+          ]
+        },
+        "summary": "hero 83% (match)",
+        "score": 0.8327,
+        "verdict": "match",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "projects-title contradicted 44%",
+          "feature-title contradicted 46%",
+          "previous-label missing 48%"
+        ],
+        "worstIds": [
+          "projects-title",
+          "feature-title",
+          "previous-label"
+        ],
+        "worstCrops": [
+          {
+            "id": "projects-title",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4352,
+              "structure": 0.3509,
+              "color": 0.8915,
+              "colorIntersection": 0.8345,
+              "paletteMatch": 0.9222,
+              "detail": 0.0479,
+              "detailRaw": 0.2041,
+              "detailAdded": 0.3125,
+              "bands": 0.297
+            },
+            "file": ".impeccable/review/diff/hero/regions/projects-title.png"
+          },
+          {
+            "id": "feature-title",
+            "verdict": "contradicted",
+            "score": {
+              "overall": 0.4633,
+              "structure": 0.4015,
+              "color": 0.8871,
+              "colorIntersection": 0.8321,
+              "paletteMatch": 0.9167,
+              "detail": 0.1611,
+              "detailRaw": 0.3486,
+              "detailAdded": 0.375,
+              "bands": 0.1667
+            },
+            "file": ".impeccable/review/diff/hero/regions/feature-title.png"
+          },
+          {
+            "id": "previous-label",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.4758,
+              "structure": 0.4886,
+              "color": 0.9261,
+              "colorIntersection": 0.8733,
+              "paletteMatch": 0.9545,
+              "detail": 0,
+              "detailRaw": 0.0676,
+              "detailAdded": 0.3229,
+              "bands": 0
+            },
+            "file": ".impeccable/review/diff/hero/regions/previous-label.png"
+          }
+        ],
+        "advisories": [
+          "(advisory, above the 72% bar; fix in the polish pass before responsive) 8 readings:",
+          "  text previous-label: cap height 8px in the build, 10.9px in the comp (-27%); set font-size so the cap height renders at 10.9px",
+          "  text new-label: cap height 8px in the build, 10.8px in the comp (-26%); set font-size so the cap height renders at 10.8px",
+          "  text project-one-tech: cap height 9.4px in the build, 12.3px in the comp (-24%); set font-size so the cap height renders at 12.3px",
+          "  text project-two: cap height 9.1px in the build, 13.1px in the comp (-31%); set font-size so the cap height renders at 13.1px",
+          "  text feature-desc: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+          "  text project-two-tech: the face renders 56% heavier than the comp's (ink density 0.75 vs 0.48); drop a weight step or use the ranked face",
+          "  text result-label: ink is #656f7d in the build, #9ab3c6 in the comp; use the comp's colour",
+          "  text project-two: its first line starts 13px lower than in the comp (23px vs 10px into the region box); the spacing above it is too large"
+        ],
+        "regionVerdicts": {
+          "brand": "drift",
+          "menu": "drift",
+          "expertise": "match",
+          "headline": "drift",
+          "intro": "drift",
+          "resume": "drift",
+          "contact": "drift",
+          "hero-rule": "match",
+          "feature": "match",
+          "feature-label": "drift",
+          "feature-title": "contradicted",
+          "feature-desc": "missing",
+          "previous-label": "missing",
+          "previous-value": "drift",
+          "comparison-arrow": "drift",
+          "new-label": "missing",
+          "new-value": "drift",
+          "scope-label": "drift",
+          "scope": "drift",
+          "result-label": "missing",
+          "result": "drift",
+          "case-link": "drift",
+          "projects-rule": "match",
+          "projects-label": "missing",
+          "projects-title": "contradicted",
+          "project-one": "contradicted",
+          "project-one-tech": "drift",
+          "project-one-link": "drift",
+          "project-rule": "match",
+          "project-two": "missing",
+          "project-two-tech": "drift",
+          "project-two-link": "missing",
+          "header": "match",
+          "hero": "match",
+          "project-list": "drift"
+        },
+        "at": "2026-10-07T15:48:58.995Z"
+      },
+      "forced": null,
+      "readingsSeen": {
+        "text feature-title: cap height 9.1px in the build, 21.7px in the comp (-58%); set font-size so the cap height renders at 21.7px": 2,
+        "text feature-desc: cap height 20.8px in the build, 12.4px in the comp (+68%); set font-size so the cap height renders at 12.4px": 2,
+        "text previous-label: letter-spacing is wider than the comp's (gap 0.261 vs 0.092 of the cap height); set letter-spacing to close it by about 2px": 2,
+        "text new-value: cap height 11.4px in the build, 22.8px in the comp (-50%); set font-size so the cap height renders at 22.8px": 2,
+        "text result: cap height 9.3px in the build, 12.5px in the comp (-26%); set font-size so the cap height renders at 12.5px": 2,
+        "text project-one-tech: cap height 19.3px in the build, 12.3px in the comp (+57%); set font-size so the cap height renders at 12.3px": 2,
+        "text project-two: letter-spacing is wider than the comp's (gap 0.192 vs 0.076 of the cap height); set letter-spacing to close it by about 2px": 2,
+        "text intro: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 2,
+        "text feature-desc: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape": 3,
+        "text project-two: the face renders 41% lighter than the comp's (ink density 0.34 vs 0.58); raise a weight step or use the ranked face": 2,
+        "text project-two-tech: the face renders 72% heavier than the comp's (ink density 0.82 vs 0.48); drop a weight step or use the ranked face": 2,
+        "text feature-title: ink is #626b74 in the build, #09112e in the comp; use the comp's colour": 2,
+        "text previous-value: ink is #949da4 in the build, #0b1431 in the comp; use the comp's colour": 2,
+        "text new-value: ink is #aab1ba in the build, #0f626f in the comp; use the comp's colour": 2,
+        "text result-label: ink is #242e40 in the build, #9ab3c6 in the comp; use the comp's colour": 2,
+        "text feature-title: its first line starts 14px lower than in the comp (20px vs 6px into the region box); the spacing above it is too large": 2,
+        "control contact: its rule sits 5px into the box in the comp and 36px in the build (+31px), so the strip is taller than the comp's; match the height, not only the position": 2,
+        "text previous-label: cap height 8px in the build, 10.9px in the comp (-27%); set font-size so the cap height renders at 10.9px": 1,
+        "text new-label: cap height 8px in the build, 10.8px in the comp (-26%); set font-size so the cap height renders at 10.8px": 1,
+        "text project-one-tech: cap height 9.4px in the build, 12.3px in the comp (-24%); set font-size so the cap height renders at 12.3px": 1,
+        "text project-two: cap height 9.1px in the build, 13.1px in the comp (-31%); set font-size so the cap height renders at 13.1px": 1,
+        "text project-two-tech: the face renders 56% heavier than the comp's (ink density 0.75 vs 0.48); drop a weight step or use the ranked face": 1,
+        "text result-label: ink is #656f7d in the build, #9ab3c6 in the comp; use the comp's colour": 1,
+        "text project-two: its first line starts 13px lower than in the comp (23px vs 10px into the region box); the spacing above it is too large": 1
+      },
+      "records": 2,
+      "history": [
+        {
+          "at": "2026-10-07T15:47:49.531Z",
+          "score": 0.7284,
+          "worstIds": [
+            "projects-title",
+            "previous-label",
+            "project-two"
+          ],
+          "blockingReasons": [
+            "region feature-label is missing (detail 12%, structure 64%): the comp shows material the build does not",
+            "region feature-title is missing (detail 15%, structure 50%): the comp shows material the build does not",
+            "region previous-label is missing (detail 0%, structure 39%): the comp shows material the build does not",
+            "region new-label is missing (detail 0%, structure 74%): the comp shows material the build does not",
+            "region scope is missing (detail 0%, structure 67%): the comp shows material the build does not",
+            "region projects-title is missing (detail 0%, structure 49%): the comp shows material the build does not",
+            "region project-one is missing (detail 0%, structure 58%): the comp shows material the build does not",
+            "region project-one-link is missing (detail 0%, structure 91%): the comp shows material the build does not",
+            "region project-two is missing (detail 0%, structure 41%): the comp shows material the build does not",
+            "region project-two-tech is missing (detail 7%, structure 72%): the comp shows material the build does not",
+            "region project-two-link is missing (detail 0%, structure 91%): the comp shows material the build does not",
+            "region headline (text) is contradicted (structure 46%, detail added 25%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "region resume (control) is contradicted (structure 39%, detail added 17%): this control differs from the comp: inspect its lettering and visible shape separately against the crop and the measured readings; preserve the region's control classification",
+            "region feature-desc (text) is contradicted (structure 41%, detail added 17%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "region result-label (text) is contradicted (structure 50%, detail added 39%): the composition of this text region differs from the comp; re-derive it from the spec box",
+            "control contact drifts to 63% (structure 63%, color 92%): open .impeccable/review/diff/hero/regions/contact.png and compare its lettering and visible shape separately; use the measured readings and preserve the region's control classification"
+          ],
+          "regionVerdicts": {
+            "brand": "drift",
+            "menu": "drift",
+            "expertise": "drift",
+            "headline": "contradicted",
+            "intro": "drift",
+            "resume": "contradicted",
+            "contact": "drift",
+            "hero-rule": "match",
+            "feature": "drift",
+            "feature-label": "missing",
+            "feature-title": "missing",
+            "feature-desc": "contradicted",
+            "previous-label": "missing",
+            "previous-value": "drift",
+            "comparison-arrow": "drift",
+            "new-label": "missing",
+            "new-value": "drift",
+            "scope-label": "drift",
+            "scope": "missing",
+            "result-label": "contradicted",
+            "result": "drift",
+            "case-link": "drift",
+            "projects-rule": "match",
+            "projects-label": "drift",
+            "projects-title": "missing",
+            "project-one": "missing",
+            "project-one-tech": "drift",
+            "project-one-link": "missing",
+            "project-rule": "match",
+            "project-two": "missing",
+            "project-two-tech": "missing",
+            "project-two-link": "missing",
+            "header": "drift",
+            "hero": "drift",
+            "project-list": "drift"
+          },
+          "artifactHash": "364fa91e5c29"
+        }
+      ]
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "fix",
+    "at": "2026-10-07T15:52:48.999Z",
+    "phaseAtFinish": "hero",
+    "artifactInputsSha256": "184fe308ad039f388b6995991806d8dcfa95279fc767af2c831f5386f2b53171",
+    "artifactSha256": "ff64cddbb30fd41f134c92cca80da32c6acca387d260b47e5659df5d57605099"
+  },
+  "sessionId": "01a114d6-8a39-7243-bae7-133ac9c23d27",
+  "plates": {}
+}

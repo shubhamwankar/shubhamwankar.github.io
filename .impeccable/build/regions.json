@@ -1,0 +1,393 @@
+{
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "text",
+      "pixelBox": {
+        "x": 34,
+        "y": 20,
+        "w": 335,
+        "h": 62
+      },
+      "note": "Portfolio name in bold navy sans serif"
+    },
+    {
+      "id": "menu",
+      "kind": "control",
+      "pixelBox": {
+        "x": 657,
+        "y": 18,
+        "w": 77,
+        "h": 74
+      },
+      "note": "Navy mobile menu icon"
+    },
+    {
+      "id": "expertise",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 167,
+        "w": 410,
+        "h": 43
+      },
+      "note": "Steel blue expertise text"
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "pixelBox": {
+        "x": 37,
+        "y": 217,
+        "w": 690,
+        "h": 162
+      },
+      "note": "Bold navy heading Building AI that works in production."
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 392,
+        "w": 678,
+        "h": 92
+      },
+      "note": "Two lines of steel blue supporting text"
+    },
+    {
+      "id": "resume",
+      "kind": "control",
+      "pixelBox": {
+        "x": 38,
+        "y": 516,
+        "w": 355,
+        "h": 116
+      },
+      "note": "Solid teal resume link with white text and arrow"
+    },
+    {
+      "id": "contact",
+      "kind": "control",
+      "pixelBox": {
+        "x": 395,
+        "y": 516,
+        "w": 331,
+        "h": 116
+      },
+      "note": "Teal outlined contact link"
+    },
+    {
+      "id": "hero-rule",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 48,
+        "y": 664,
+        "w": 668,
+        "h": 2
+      },
+      "note": "Thin blue gray horizontal divider"
+    },
+    {
+      "id": "feature",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 697,
+        "w": 764,
+        "h": 833
+      },
+      "note": "Flat pale blue feature section background",
+      "container": true
+    },
+    {
+      "id": "feature-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 744,
+        "w": 253,
+        "h": 47
+      },
+      "note": "Featured work label in steel blue"
+    },
+    {
+      "id": "feature-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 795,
+        "w": 638,
+        "h": 73
+      },
+      "note": "Executive evaluation heading in navy"
+    },
+    {
+      "id": "feature-desc",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 873,
+        "w": 686,
+        "h": 96
+      },
+      "note": "Two line AI microservice description"
+    },
+    {
+      "id": "previous-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 997,
+        "w": 264,
+        "h": 51
+      },
+      "note": "Previous service label"
+    },
+    {
+      "id": "previous-value",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1045,
+        "w": 223,
+        "h": 75
+      },
+      "note": "About eight minute processing time"
+    },
+    {
+      "id": "comparison-arrow",
+      "kind": "control",
+      "pixelBox": {
+        "x": 331,
+        "y": 1048,
+        "w": 72,
+        "h": 62
+      },
+      "note": "Right arrow separating processing times"
+    },
+    {
+      "id": "new-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 454,
+        "y": 997,
+        "w": 233,
+        "h": 51
+      },
+      "note": "New service label"
+    },
+    {
+      "id": "new-value",
+      "kind": "text",
+      "pixelBox": {
+        "x": 454,
+        "y": 1045,
+        "w": 259,
+        "h": 75
+      },
+      "note": "Under one minute processing time in teal"
+    },
+    {
+      "id": "scope-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1147,
+        "w": 131,
+        "h": 45
+      },
+      "note": "Scope label"
+    },
+    {
+      "id": "scope",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1193,
+        "w": 410,
+        "h": 56
+      },
+      "note": "Twenty executives supported"
+    },
+    {
+      "id": "result-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1265,
+        "w": 141,
+        "h": 47
+      },
+      "note": "Result label"
+    },
+    {
+      "id": "result",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1302,
+        "w": 685,
+        "h": 99
+      },
+      "note": "Qualitative evaluation consistency result"
+    },
+    {
+      "id": "case-link",
+      "kind": "control",
+      "pixelBox": {
+        "x": 38,
+        "y": 1428,
+        "w": 313,
+        "h": 63
+      },
+      "note": "Teal case study link with arrow"
+    },
+    {
+      "id": "projects-rule",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 48,
+        "y": 1555,
+        "w": 668,
+        "h": 2
+      },
+      "note": "Thin horizontal section divider"
+    },
+    {
+      "id": "projects-label",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1604,
+        "w": 345,
+        "h": 49
+      },
+      "note": "Selected projects label"
+    },
+    {
+      "id": "projects-title",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1646,
+        "w": 489,
+        "h": 87
+      },
+      "note": "Selected projects heading"
+    },
+    {
+      "id": "project-one",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1750,
+        "w": 431,
+        "h": 57
+      },
+      "note": "Text to SQL project title"
+    },
+    {
+      "id": "project-one-tech",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1798,
+        "w": 530,
+        "h": 56
+      },
+      "note": "Technology list for Text to SQL"
+    },
+    {
+      "id": "project-one-link",
+      "kind": "control",
+      "pixelBox": {
+        "x": 671,
+        "y": 1757,
+        "w": 56,
+        "h": 59
+      },
+      "note": "Project repository arrow"
+    },
+    {
+      "id": "project-rule",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 48,
+        "y": 1879,
+        "w": 668,
+        "h": 2
+      },
+      "note": "Thin project divider"
+    },
+    {
+      "id": "project-two",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1908,
+        "w": 432,
+        "h": 62
+      },
+      "note": "Next word prediction project title"
+    },
+    {
+      "id": "project-two-tech",
+      "kind": "text",
+      "pixelBox": {
+        "x": 38,
+        "y": 1964,
+        "w": 530,
+        "h": 56
+      },
+      "note": "Technology list for next word prediction"
+    },
+    {
+      "id": "project-two-link",
+      "kind": "control",
+      "pixelBox": {
+        "x": 671,
+        "y": 1918,
+        "w": 56,
+        "h": 57
+      },
+      "note": "Project repository arrow"
+    },
+    {
+      "id": "header",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 0,
+        "w": 764,
+        "h": 110
+      },
+      "note": "Header containing name and mobile navigation",
+      "container": true
+    },
+    {
+      "id": "hero",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 150,
+        "w": 764,
+        "h": 540
+      },
+      "note": "Introduction containing expertise heading copy and actions",
+      "container": true
+    },
+    {
+      "id": "project-list",
+      "kind": "chrome",
+      "pixelBox": {
+        "x": 0,
+        "y": 1570,
+        "w": 764,
+        "h": 480
+      },
+      "note": "Project section containing its headings and individual project rows",
+      "container": true
+    }
+  ]
+}

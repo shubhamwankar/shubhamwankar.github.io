@@ -13,9 +13,8 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  devIndicators: false,
   images: {
     unoptimized: true,
   },

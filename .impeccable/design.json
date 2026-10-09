@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T15:55:16.524480+00:00",
+  "title": "Design System: Modern Precision",
+  "extensions": {
+    "colorMeta": {
+      "light-background": {
+        "role": "neutral",
+        "displayName": "Light Background",
+        "tonalRamp": [
+          "oklch(0.1500 0.0000 0.00)",
+          "oklch(0.2643 0.0000 0.00)",
+          "oklch(0.3786 0.0000 0.00)",
+          "oklch(0.4929 0.0000 0.00)",
+          "oklch(0.6071 0.0000 0.00)",
+          "oklch(0.7214 0.0000 0.00)",
+          "oklch(0.8357 0.0000 0.00)",
+          "oklch(0.9500 0.0000 0.00)"
+        ]
+      },
+      "light-foreground": {
+        "role": "neutral",
+        "displayName": "Light Foreground",
+        "tonalRamp": [
+          "oklch(0.1500 0.0640 265.89)",
+          "oklch(0.2643 0.0640 265.89)",
+          "oklch(0.3786 0.0640 265.89)",
+          "oklch(0.4929 0.0640 265.89)",
+          "oklch(0.6071 0.0640 265.89)",
+          "oklch(0.7214 0.0640 265.89)",
+          "oklch(0.8357 0.0640 265.89)",
+          "oklch(0.9500 0.0640 265.89)"
+        ]
+      },
+      "light-primary": {
+        "role": "primary",
+        "displayName": "Light Primary",
+        "tonalRamp": [
+          "oklch(0.1500 0.0774 202.95)",
+          "oklch(0.2643 0.0774 202.95)",
+          "oklch(0.3786 0.0774 202.95)",
+          "oklch(0.4929 0.0774 202.95)",
+          "oklch(0.6071 0.0774 202.95)",
+          "oklch(0.7214 0.0774 202.95)",
+          "oklch(0.8357 0.0774 202.95)",
+          "oklch(0.9500 0.0774 202.95)"
+        ]
+      },
+      "light-primary-foreground": {
+        "role": "neutral",
+        "displayName": "Light Primary Foreground",
+        "tonalRamp": [
+          "oklch(0.1500 0.0000 0.00)",
+          "oklch(0.2643 0.0000 0.00)",
+          "oklch(0.3786 0.0000 0.00)",
+          "oklch(0.4929 0.0000 0.00)",
+          "oklch(0.6071 0.0000 0.00)",
+          "oklch(0.7214 0.0000 0.00)",
+          "oklch(0.8357 0.0000 0.00)",
+          "oklch(0.9500 0.0000 0.00)"
+        ]
+      },
+      "light-secondary": {
+        "role": "neutral",
+        "displayName": "Light Secondary",
+        "tonalRamp": [
+          "oklch(0.1500 0.0075 232.69)",
+          "oklch(0.2643 0.0075 232.69)",
+          "oklch(0.3786 0.0075 232.69)",
+          "oklch(0.4929 0.0075 232.69)",
+          "oklch(0.6071 0.0075 232.69)",
+          "oklch(0.7214 0.0075 232.69)",
+          "oklch(0.8357 0.0075 232.69)",
+          "oklch(0.9500 0.0075 232.69)"
+        ]
+      },
+      "light-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Light Muted Foreground",
+        "tonalRamp": [
+          "oklch(0.1500 0.0655 250.78)",
+          "oklch(0.2643 0.0655 250.78)",
+          "oklch(0.3786 0.0655 250.78)",
+          "oklch(0.4929 0.0655 250.78)",
+          "oklch(0.6071 0.0655 250.78)",
+          "oklch(0.7214 0.0655 250.78)",
+          "oklch(0.8357 0.0655 250.78)",
+          "oklch(0.9500 0.0655 250.78)"
+        ]
+      },
+      "light-accent": {
+        "role": "neutral",
+        "displayName": "Light Accent",
+        "tonalRamp": [
+          "oklch(0.1500 0.0162 212.69)",
+          "oklch(0.2643 0.0162 212.69)",
+          "oklch(0.3786 0.0162 212.69)",
+          "oklch(0.4929 0.0162 212.69)",
+          "oklch(0.6071 0.0162 212.69)",
+          "oklch(0.7214 0.0162 212.69)",
+          "oklch(0.8357 0.0162 212.69)",
+          "oklch(0.9500 0.0162 212.69)"
+        ]
+      },
+      "light-border": {
+        "role": "neutral",
+        "displayName": "Light Border",
+        "tonalRamp": [
+          "oklch(0.1500 0.0188 249.85)",
+          "oklch(0.2643 0.0188 249.85)",
+          "oklch(0.3786 0.0188 249.85)",
+          "oklch(0.4929 0.0188 249.85)",
+          "oklch(0.6071 0.0188 249.85)",
+          "oklch(0.7214 0.0188 249.85)",
+          "oklch(0.8357 0.0188 249.85)",
+          "oklch(0.9500 0.0188 249.85)"
+        ]
+      },
+      "light-feature": {
+        "role": "neutral",
+        "displayName": "Light Feature",
+        "tonalRamp": [
+          "oklch(0.1500 0.0107 234.67)",
+          "oklch(0.2643 0.0107 234.67)",
+          "oklch(0.3786 0.0107 234.67)",
+          "oklch(0.4929 0.0107 234.67)",
+          "oklch(0.6071 0.0107 234.67)",
+          "oklch(0.7214 0.0107 234.67)",
+          "oklch(0.8357 0.0107 234.67)",
+          "oklch(0.9500 0.0107 234.67)"
+        ]
+      },
+      "light-popover": {
+        "role": "neutral",
+        "displayName": "Light Popover",
+        "tonalRamp": [
+          "oklch(0.1500 0.0000 0.00)",
+          "oklch(0.2643 0.0000 0.00)",
+          "oklch(0.3786 0.0000 0.00)",
+          "oklch(0.4929 0.0000 0.00)",
+          "oklch(0.6071 0.0000 0.00)",
+          "oklch(0.7214 0.0000 0.00)",
+          "oklch(0.8357 0.0000 0.00)",
+          "oklch(0.9500 0.0000 0.00)"
+        ]
+      },
+      "dark-background": {
+        "role": "neutral",
+        "displayName": "Dark Background",
+        "tonalRamp": [
+          "oklch(0.1500 0.0264 256.87)",
+          "oklch(0.2643 0.0264 256.87)",
+          "oklch(0.3786 0.0264 256.87)",
+          "oklch(0.4929 0.0264 256.87)",
+          "oklch(0.6071 0.0264 256.87)",
+          "oklch(0.7214 0.0264 256.87)",
+          "oklch(0.8357 0.0264 256.87)",
+          "oklch(0.9500 0.0264 256.87)"
+        ]
+      },
+      "dark-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Foreground",
+        "tonalRamp": [
+          "oklch(0.1500 0.0103 242.34)",
+          "oklch(0.2643 0.0103 242.34)",
+          "oklch(0.3786 0.0103 242.34)",
+          "oklch(0.4929 0.0103 242.34)",
+          "oklch(0.6071 0.0103 242.34)",
+          "oklch(0.7214 0.0103 242.34)",
+          "oklch(0.8357 0.0103 242.34)",
+          "oklch(0.9500 0.0103 242.34)"
+        ]
+      },
+      "dark-primary": {
+        "role": "primary",
+        "displayName": "Dark Primary",
+        "tonalRamp": [
+          "oklch(0.1500 0.0889 192.75)",
+          "oklch(0.2643 0.0889 192.75)",
+          "oklch(0.3786 0.0889 192.75)",
+          "oklch(0.4929 0.0889 192.75)",
+          "oklch(0.6071 0.0889 192.75)",
+          "oklch(0.7214 0.0889 192.75)",
+          "oklch(0.8357 0.0889 192.75)",
+          "oklch(0.9500 0.0889 192.75)"
+        ]
+      },
+      "dark-primary-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Primary Foreground",
+        "tonalRamp": [
+          "oklch(0.1500 0.0264 256.87)",
+          "oklch(0.2643 0.0264 256.87)",
+          "oklch(0.3786 0.0264 256.87)",
+          "oklch(0.4929 0.0264 256.87)",
+          "oklch(0.6071 0.0264 256.87)",
+          "oklch(0.7214 0.0264 256.87)",
+          "oklch(0.8357 0.0264 256.87)",
+          "oklch(0.9500 0.0264 256.87)"
+        ]
+      },
+      "dark-secondary": {
+        "role": "neutral",
+        "displayName": "Dark Secondary",
+        "tonalRamp": [
+          "oklch(0.1500 0.0337 252.30)",
+          "oklch(0.2643 0.0337 252.30)",
+          "oklch(0.3786 0.0337 252.30)",
+          "oklch(0.4929 0.0337 252.30)",
+          "oklch(0.6071 0.0337 252.30)",
+          "oklch(0.7214 0.0337 252.30)",
+          "oklch(0.8357 0.0337 252.30)",
+          "oklch(0.9500 0.0337 252.30)"
+        ]
+      },
+      "dark-muted-foreground": {
+        "role": "neutral",
+        "displayName": "Dark Muted Foreground",
+        "tonalRamp": [
+          "oklch(0.1500 0.0310 248.23)",
+          "oklch(0.2643 0.0310 248.23)",
+          "oklch(0.3786 0.0310 248.23)",
+          "oklch(0.4929 0.0310 248.23)",
+          "oklch(0.6071 0.0310 248.23)",
+          "oklch(0.7214 0.0310 248.23)",
+          "oklch(0.8357 0.0310 248.23)",
+          "oklch(0.9500 0.0310 248.23)"
+        ]
+      },
+      "dark-accent": {
+        "role": "neutral",
+        "displayName": "Dark Accent",
+        "tonalRamp": [
+          "oklch(0.1500 0.0351 245.51)",
+          "oklch(0.2643 0.0351 245.51)",
+          "oklch(0.3786 0.0351 245.51)",
+          "oklch(0.4929 0.0351 245.51)",
+          "oklch(0.6071 0.0351 245.51)",
+          "oklch(0.7214 0.0351 245.51)",
+          "oklch(0.8357 0.0351 245.51)",
+          "oklch(0.9500 0.0351 245.51)"
+        ]
+      },
+      "dark-border": {
+        "role": "neutral",
+        "displayName": "Dark Border",
+        "tonalRamp": [
+          "oklch(0.1500 0.0380 250.48)",
+          "oklch(0.2643 0.0380 250.48)",
+          "oklch(0.3786 0.0380 250.48)",
+          "oklch(0.4929 0.0380 250.48)",
+          "oklch(0.6071 0.0380 250.48)",
+          "oklch(0.7214 0.0380 250.48)",
+          "oklch(0.8357 0.0380 250.48)",
+          "oklch(0.9500 0.0380 250.48)"
+        ]
+      },
+      "dark-feature": {
+        "role": "neutral",
+        "displayName": "Dark Feature",
+        "tonalRamp": [
+          "oklch(0.1500 0.0330 252.36)",
+          "oklch(0.2643 0.0330 252.36)",
+          "oklch(0.3786 0.0330 252.36)",
+          "oklch(0.4929 0.0330 252.36)",
+          "oklch(0.6071 0.0330 252.36)",
+          "oklch(0.7214 0.0330 252.36)",
+          "oklch(0.8357 0.0330 252.36)",
+          "oklch(0.9500 0.0330 252.36)"
+        ]
+      },
+      "dark-popover": {
+        "role": "neutral",
+        "displayName": "Dark Popover",
+        "tonalRamp": [
+          "oklch(0.1500 0.0306 256.87)",
+          "oklch(0.2643 0.0306 256.87)",
+          "oklch(0.3786 0.0306 256.87)",
+          "oklch(0.4929 0.0306 256.87)",
+          "oklch(0.6071 0.0306 256.87)",
+          "oklch(0.7214 0.0306 256.87)",
+          "oklch(0.8357 0.0306 256.87)",
+          "oklch(0.9500 0.0306 256.87)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hero display",
+        "purpose": "Phone hero heading; narrow, tablet, and desktop variants follow the documented breakpoints."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable supporting prose throughout the portfolio."
+      },
+      "label": {
+        "displayName": "Context label",
+        "purpose": "Approved introductory and featured-work labels and functional evidence labels."
+      },
+      "metric": {
+        "displayName": "Timing metric",
+        "purpose": "Tabular timing comparison in featured work."
+      }
+    },
+    "shadows": [
+      {
+        "name": "appearance-menu",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Existing floating appearance dropdown only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "action-colors",
+        "value": "background-color 150ms ease, color 150ms ease",
+        "purpose": "Primary and secondary action feedback."
+      },
+      {
+        "name": "disclosure-icon",
+        "value": "transform 180ms ease-out",
+        "purpose": "Rotate disclosure plus icons by 45 degrees when open."
+      },
+      {
+        "name": "anchor-scroll",
+        "value": "smooth",
+        "purpose": "Anchor navigation; auto under reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto",
+        "purpose": "Remove nonessential CSS motion when the user requests reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone-max",
+        "value": "359px"
+      },
+      {
+        "name": "tablet",
+        "value": "640px"
+      },
+      {
+        "name": "desktop",
+        "value": "960px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled resume action with semantic colors for both themes.",
+      "html": "<a class=\"ds-primary\" href=\"#resume\">View resume <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3\"/></svg></a>",
+      "css": ".ds-primary{font-family:var(--font-portfolio,Cambay),sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:10px 16px 8px;border:1px solid hsl(var(--primary,184 86% 23%));border-radius:var(--radius,.375rem);font-size:15px;font-weight:700;line-height:1.6;text-decoration:none;transition:background-color 150ms,color 150ms;background:hsl(var(--primary,184 86% 23%));color:hsl(var(--primary-foreground,0 0% 100%));}.ds-primary:hover{background:hsl(var(--foreground,224 70% 12%));border-color:hsl(var(--foreground,224 70% 12%));color:hsl(var(--background,0 0% 100%));}.ds-primary:focus-visible{outline:2px solid hsl(var(--ring,184 86% 23%));outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-secondary,.ds-project svg{transition:none;}}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined contact action beside the primary action.",
+      "html": "<a class=\"ds-secondary\" href=\"#contact\">Get in touch <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-secondary{font-family:var(--font-portfolio,Cambay),sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:10px 16px 8px;border:1px solid hsl(var(--primary,184 86% 23%));border-radius:var(--radius,.375rem);font-size:15px;font-weight:700;line-height:1.6;text-decoration:none;transition:background-color 150ms,color 150ms;background:transparent;color:hsl(var(--primary,184 86% 23%));}.ds-secondary:hover{background:hsl(var(--accent,191 44% 92%));}.ds-secondary:focus-visible{outline:2px solid hsl(var(--ring,184 86% 23%));outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-secondary,.ds-project svg{transition:none;}}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "description": "Resume, repository, and social links with an inline SVG.",
+      "html": "<a class=\"ds-link\" href=\"#repository\">View repository <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-link{font-family:var(--font-portfolio,Cambay),sans-serif;display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:16px;line-height:1.6;font-weight:700;color:hsl(var(--primary,184 86% 23%));text-decoration:none;text-underline-offset:4px;}.ds-link:hover{text-decoration:underline;}.ds-link:focus-visible{outline:2px solid hsl(var(--ring,184 86% 23%));outline-offset:5px;border-radius:3px;}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Quiet inline section destinations at desktop width.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#about\">About</a><a href=\"#experience\">Experience</a><a href=\"#projects\">Projects</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-nav{font-family:var(--font-portfolio,Cambay),sans-serif;display:flex;flex-wrap:wrap;gap:24px;background:hsl(var(--background,0 0% 100%));}.ds-nav a{display:flex;align-items:center;min-height:48px;color:hsl(var(--muted-foreground,211 30% 43%));font-size:14px;text-decoration:none;}.ds-nav a:hover{color:hsl(var(--primary,184 86% 23%));}.ds-nav a:focus-visible{outline:2px solid hsl(var(--ring,184 86% 23%));outline-offset:5px;border-radius:3px;}"
+    },
+    {
+      "name": "Skill chip",
+      "kind": "chip",
+      "refersTo": "skill-chip",
+      "description": "Non-interactive expertise label with a fine border.",
+      "html": "<span class=\"ds-chip\">Python</span>",
+      "css": ".ds-chip{font-family:var(--font-portfolio,Cambay),sans-serif;display:inline-block;padding:5px 10px 3px;border:1px solid hsl(var(--border,211 26% 84%));border-radius:var(--radius,.375rem);font-size:14px;line-height:1.6;color:hsl(var(--foreground,224 70% 12%));}"
+    },
+    {
+      "name": "Project disclosure",
+      "kind": "custom",
+      "refersTo": "project-disclosure",
+      "description": "Native disclosure with technology context and an expanding detail area.",
+      "html": "<details class=\"ds-project\"><summary><div><h3>Applied AI project</h3><p>Python · Machine learning</p></div><svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></summary><div class=\"ds-project-body\">Project description and repository link.</div></details>",
+      "css": ".ds-project{font-family:var(--font-portfolio,Cambay),sans-serif;border-bottom:1px solid hsl(var(--border,211 26% 84%));color:hsl(var(--foreground,224 70% 12%));}.ds-project summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 0;cursor:pointer;list-style:none;}.ds-project summary::-webkit-details-marker{display:none;}.ds-project h3{font-size:20px;font-weight:700;line-height:1.2;letter-spacing:-.015em;margin:0;}.ds-project p{font-size:13px;line-height:1.7;margin:6px 0 0;color:hsl(var(--muted-foreground,211 30% 43%));}.ds-project summary:hover h3{color:hsl(var(--primary,184 86% 23%));}.ds-project summary:focus-visible{outline:2px solid hsl(var(--ring,184 86% 23%));outline-offset:5px;border-radius:3px;}.ds-project svg{flex-shrink:0;transition:transform 180ms ease-out;}.ds-project[open] summary>svg{transform:rotate(45deg);}.ds-project-body{padding-bottom:28px;font-size:16px;line-height:1.6;color:hsl(var(--muted-foreground,211 30% 43%));}@media(min-width:960px){.ds-project summary{padding:28px 0;}.ds-project h3{font-size:24px;}.ds-project p{font-size:14px;}}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-secondary,.ds-project svg{transition:none;}}"
+    },
+    {
+      "name": "Timing comparison",
+      "kind": "custom",
+      "description": "Two unboxed metric columns, with teal on the improved result.",
+      "html": "<div class=\"ds-timing\"><div><span>Previous service</span><strong>~8 min</strong></div><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14m-7-7 7 7-7 7\"/></svg><div><span>New service</span><strong>&lt;1 min</strong></div></div>",
+      "css": ".ds-timing{font-family:var(--font-portfolio,Cambay),sans-serif;display:grid;grid-template-columns:1fr 30px 1fr;align-items:center;gap:8px;color:hsl(var(--foreground,224 70% 12%));}.ds-timing span{display:block;color:hsl(var(--muted-foreground,211 30% 43%));font-size:15px;margin-top:1px;}.ds-timing strong{display:block;margin-top:7px;font-size:35px;font-weight:700;line-height:1.1;letter-spacing:-.04em;font-variant-numeric:tabular-nums;}.ds-timing>svg{color:hsl(var(--muted-foreground,211 30% 43%));margin-top:20px;}.ds-timing>div:last-child{padding-left:9px;}.ds-timing>div:last-child strong{color:hsl(var(--primary,184 86% 23%));}@media(min-width:960px){.ds-timing strong{font-size:46px;}.ds-timing span{font-size:14px;}}"
+    },
+    {
+      "name": "Menu icon button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "Compact touch target for the mobile navigation trigger.",
+      "html": "<button class=\"ds-icon\" aria-label=\"Open menu\"><svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M4 6h16M4 12h16M4 18h16\"/></svg></button>",
+      "css": ".ds-icon{font-family:var(--font-portfolio,Cambay),sans-serif;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:0;border-radius:var(--radius,.375rem);background:transparent;color:hsl(var(--foreground,224 70% 12%));cursor:pointer;}.ds-icon:hover{background:hsl(var(--accent,191 44% 92%));}.ds-icon:focus-visible{outline:2px solid hsl(var(--ring,184 86% 23%));outline-offset:5px;border-radius:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Modern Precision",
+    "overview": "Modern Precision presents professional work with clear sans-serif type, restrained teal actions, and broad areas of quiet space. Navy headings and steel-blue supporting copy establish a direct reading hierarchy. The same roles carry into a dark navy theme.\n\nThe page is compact and left-aligned on phones. Wider views center the introductory statement and its actions while maintaining left-aligned reading columns for supporting content. Real portrait and project imagery appears within the content; it does not compete with the introduction.",
+    "keyCharacteristics": [
+      "A single self-hosted type family with regular and bold weights.",
+      "Flat, full-width tonal bands with fine dividers.",
+      "Centered outer containers and a centered hero from tablet width.",
+      "Immediate, readable content with native disclosures for depth."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Color Rule",
+        "body": "Assign surfaces, text, actions, and focus through the existing semantic CSS variables so light and dark themes remain paired.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Use Cambay for display, body, labels, and metrics; establish hierarchy through size, weight, spacing, and measure.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Use tonal backgrounds and fine rules to separate page sections; reserve the existing soft shadow for the floating appearance menu.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do retain the centered page container and center the hero at tablet and desktop widths.",
+      "Do keep mobile reading order, visible content, and comfortable touch targets.",
+      "Do use semantic theme colors for foreground, supporting copy, actions, focus, and surfaces.",
+      "Do retain the approved expertise and featured-work labels in their existing contexts.",
+      "Do keep native disclosure semantics, visible keyboard focus, meaningful image alternatives, and reduced-motion support.",
+      "Do preserve real portrait and project imagery with proportional sizing."
+    ],
+    "donts": [
+      "Don’t introduce decorative gradients, blurred panels, or shadows on page sections.",
+      "Don’t replace the single type family with a competing display face.",
+      "Don’t turn project lists or career entries into grids of decorative cards or an alternating timeline.",
+      "Don’t gate introductory or section content behind entrance animations, typewriter text, or hover.",
+      "Don’t reintroduce animated skill percentages or a duplicate Selected projects label."
+    ]
+  }
+}

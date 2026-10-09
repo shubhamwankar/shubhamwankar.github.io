@@ -1,0 +1,1432 @@
+{
+  "tool": "comp-diff",
+  "version": 1,
+  "createdAt": "2026-10-07T15:48:58.553Z",
+  "label": "hero",
+  "comp": ".impeccable/mocks/modern-precision-approved-css.png",
+  "build": ".impeccable/review/hero-final.png",
+  "spec": ".impeccable/build/spec.json",
+  "compSize": "390x1050",
+  "buildSize": "390x1050",
+  "align": "top",
+  "overall": 0.8327,
+  "verdict": "match",
+  "scores": {
+    "overall": 0.8327,
+    "structure": 0.6657,
+    "color": 0.9582,
+    "colorIntersection": 0.9275,
+    "paletteMatch": 0.9747,
+    "detail": 0.8406,
+    "detailRaw": 0.851,
+    "detailAdded": 0.0208,
+    "bands": 1
+  },
+  "palette": {
+    "comp": [
+      {
+        "hex": "#f1f8f8",
+        "coverage": 0.9269
+      },
+      {
+        "hex": "#0a1133",
+        "coverage": 0.0208
+      },
+      {
+        "hex": "#08646a",
+        "coverage": 0.0196
+      },
+      {
+        "hex": "#62748e",
+        "coverage": 0.0132
+      },
+      {
+        "hex": "#98a3b4",
+        "coverage": 0.0102
+      },
+      {
+        "hex": "#bfc7d2",
+        "coverage": 0.0093
+      }
+    ],
+    "build": [
+      {
+        "hex": "#f1f7f8",
+        "coverage": 0.9268
+      },
+      {
+        "hex": "#121529",
+        "coverage": 0.0232
+      },
+      {
+        "hex": "#2c6869",
+        "coverage": 0.0176
+      },
+      {
+        "hex": "#a7aebb",
+        "coverage": 0.0173
+      },
+      {
+        "hex": "#6e7684",
+        "coverage": 0.0125
+      },
+      {
+        "hex": "#323747",
+        "coverage": 0.0026
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "brand",
+      "x": 0.0445,
+      "y": 0.0097,
+      "w": 0.4385,
+      "h": 0.0301,
+      "kind": "text",
+      "score": {
+        "overall": 0.7759,
+        "structure": 0.7316,
+        "color": 0.8771,
+        "colorIntersection": 0.8198,
+        "paletteMatch": 0.908,
+        "detail": 0.7356,
+        "detailRaw": 0.8033,
+        "detailAdded": 0.1354,
+        "bands": 0.805
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 10,
+          "w": 158,
+          "h": 15
+        },
+        "build": {
+          "x": 8,
+          "y": 11,
+          "w": 158,
+          "h": 15
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "menu",
+      "x": 0.8599,
+      "y": 0.0087,
+      "w": 0.1008,
+      "h": 0.036,
+      "kind": "control",
+      "score": {
+        "overall": 0.7359,
+        "structure": 0.7632,
+        "color": 0.9023,
+        "colorIntersection": 0.9079,
+        "paletteMatch": 0.8992,
+        "detail": 0.3835,
+        "detailRaw": 0.4252,
+        "detailAdded": 0.0833,
+        "bands": 0.5
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 12,
+          "y": 12,
+          "w": 20,
+          "h": 14
+        },
+        "build": {
+          "x": 10,
+          "y": 15,
+          "w": 18,
+          "h": 16
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "expertise",
+      "x": 0.0497,
+      "y": 0.0811,
+      "w": 0.5366,
+      "h": 0.0209,
+      "kind": "text",
+      "score": {
+        "overall": 0.8147,
+        "structure": 0.7791,
+        "color": 0.9219,
+        "colorIntersection": 0.8459,
+        "paletteMatch": 0.9629,
+        "detail": 0.7645,
+        "detailRaw": 0.8739,
+        "detailAdded": 0.2188,
+        "bands": 0.8
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 179,
+          "h": 8
+        },
+        "build": {
+          "x": 6,
+          "y": 6,
+          "w": 188,
+          "h": 9
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "headline",
+      "x": 0.0484,
+      "y": 0.1054,
+      "w": 0.9031,
+      "h": 0.0787,
+      "kind": "text",
+      "score": {
+        "overall": 0.6817,
+        "structure": 0.4949,
+        "color": 0.9052,
+        "colorIntersection": 0.8557,
+        "paletteMatch": 0.9319,
+        "detail": 0.7197,
+        "detailRaw": 0.7613,
+        "detailAdded": 0.0833,
+        "bands": 1
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 5,
+          "y": 6,
+          "w": 335,
+          "h": 75
+        },
+        "build": {
+          "x": 6,
+          "y": 7,
+          "w": 319,
+          "h": 75
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "intro",
+      "x": 0.0497,
+      "y": 0.1905,
+      "w": 0.8874,
+      "h": 0.0447,
+      "kind": "text",
+      "score": {
+        "overall": 0.7307,
+        "structure": 0.7182,
+        "color": 0.9344,
+        "colorIntersection": 0.896,
+        "paletteMatch": 0.9551,
+        "detail": 0.6267,
+        "detailRaw": 0.7048,
+        "detailAdded": 0.1563,
+        "bands": 0.44
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 6,
+          "w": 314,
+          "h": 34
+        },
+        "build": {
+          "x": 5,
+          "y": 5,
+          "w": 337,
+          "h": 36
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "resume",
+      "x": 0.0497,
+      "y": 0.2507,
+      "w": 0.4647,
+      "h": 0.0564,
+      "kind": "control",
+      "score": {
+        "overall": 0.6996,
+        "structure": 0.7357,
+        "color": 0.6591,
+        "colorIntersection": 0.2846,
+        "paletteMatch": 0.8607,
+        "detail": 0.6891,
+        "detailRaw": 0.7204,
+        "detailAdded": 0.0625,
+        "bands": 0.8095
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 182,
+          "h": 59
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 182,
+          "h": 59
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "contact",
+      "x": 0.517,
+      "y": 0.2507,
+      "w": 0.4332,
+      "h": 0.0564,
+      "kind": "control",
+      "score": {
+        "overall": 0.77,
+        "structure": 0.7507,
+        "color": 0.9207,
+        "colorIntersection": 0.8741,
+        "paletteMatch": 0.9458,
+        "detail": 0.5496,
+        "detailRaw": 0.5808,
+        "detailAdded": 0.0625,
+        "bands": 0.8909
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 5,
+          "y": 6,
+          "w": 160,
+          "h": 48
+        },
+        "build": {
+          "x": 0,
+          "y": 5,
+          "w": 164,
+          "h": 49
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "hero-rule",
+      "x": 0.0628,
+      "y": 0.3226,
+      "w": 0.8743,
+      "h": 0.001,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.9945,
+        "structure": 0.9992,
+        "color": 0.9791,
+        "colorIntersection": 0.9591,
+        "paletteMatch": 0.9899,
+        "detail": 1,
+        "detailRaw": 1,
+        "detailAdded": 0,
+        "bands": 1
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": null,
+        "build": null
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "feature",
+      "x": 0,
+      "y": 0.3387,
+      "w": 1,
+      "h": 0.4048,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.8152,
+        "structure": 0.758,
+        "color": 0.9568,
+        "colorIntersection": 0.9338,
+        "paletteMatch": 0.9693,
+        "detail": 0.6425,
+        "detailRaw": 0.7103,
+        "detailAdded": 0.1354,
+        "bands": 1
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 25,
+          "y": 31,
+          "w": 338,
+          "h": 364
+        },
+        "build": {
+          "x": 24,
+          "y": 26,
+          "w": 341,
+          "h": 367
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "feature-label",
+      "x": 0.0497,
+      "y": 0.3615,
+      "w": 0.3312,
+      "h": 0.0228,
+      "kind": "text",
+      "score": {
+        "overall": 0.6512,
+        "structure": 0.723,
+        "color": 0.8861,
+        "colorIntersection": 0.8038,
+        "paletteMatch": 0.9303,
+        "detail": 0.3161,
+        "detailRaw": 0.4567,
+        "detailAdded": 0.2813,
+        "bands": 0.2071
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 108,
+          "h": 9
+        },
+        "build": {
+          "x": 6,
+          "y": 2,
+          "w": 112,
+          "h": 22
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "feature-title",
+      "x": 0.0497,
+      "y": 0.3863,
+      "w": 0.8351,
+      "h": 0.0355,
+      "kind": "text",
+      "score": {
+        "overall": 0.4633,
+        "structure": 0.4015,
+        "color": 0.8871,
+        "colorIntersection": 0.8321,
+        "paletteMatch": 0.9167,
+        "detail": 0.1611,
+        "detailRaw": 0.3486,
+        "detailAdded": 0.375,
+        "bands": 0.1667
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 6,
+          "w": 271,
+          "h": 23
+        },
+        "build": {
+          "x": 7,
+          "y": 0,
+          "w": 295,
+          "h": 37
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region feature-title (text) is contradicted (structure 40%, detail added 38%): the composition of this text region differs from the comp; re-derive it from the spec box"
+      ],
+      "rawVerdict": "contradicted"
+    },
+    {
+      "id": "feature-desc",
+      "x": 0.0497,
+      "y": 0.4242,
+      "w": 0.8979,
+      "h": 0.0466,
+      "kind": "text",
+      "score": {
+        "overall": 0.551,
+        "structure": 0.66,
+        "color": 0.8841,
+        "colorIntersection": 0.8575,
+        "paletteMatch": 0.8984,
+        "detail": 0,
+        "detailRaw": 0.1145,
+        "detailAdded": 0.3333,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 337,
+          "h": 38
+        },
+        "build": {
+          "x": 5,
+          "y": 0,
+          "w": 329,
+          "h": 33
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region feature-desc is missing (detail 0%, structure 66%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "previous-label",
+      "x": 0.0497,
+      "y": 0.4845,
+      "w": 0.3455,
+      "h": 0.0248,
+      "kind": "text",
+      "score": {
+        "overall": 0.4758,
+        "structure": 0.4886,
+        "color": 0.9261,
+        "colorIntersection": 0.8733,
+        "paletteMatch": 0.9545,
+        "detail": 0,
+        "detailRaw": 0.0676,
+        "detailAdded": 0.3229,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 110,
+          "h": 12
+        },
+        "build": {
+          "x": 6,
+          "y": 0,
+          "w": 104,
+          "h": 26
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region previous-label is missing (detail 0%, structure 49%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "previous-value",
+      "x": 0.0497,
+      "y": 0.5078,
+      "w": 0.2919,
+      "h": 0.0364,
+      "kind": "text",
+      "score": {
+        "overall": 0.6872,
+        "structure": 0.7319,
+        "color": 0.9109,
+        "colorIntersection": 0.8633,
+        "paletteMatch": 0.9365,
+        "detail": 0.433,
+        "detailRaw": 0.5371,
+        "detailAdded": 0.2083,
+        "bands": 0.2857
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 95,
+          "h": 25
+        },
+        "build": {
+          "x": 7,
+          "y": 0,
+          "w": 91,
+          "h": 26
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "comparison-arrow",
+      "x": 0.4332,
+      "y": 0.5092,
+      "w": 0.0942,
+      "h": 0.0301,
+      "kind": "control",
+      "score": {
+        "overall": 0.7789,
+        "structure": 0.8059,
+        "color": 0.921,
+        "colorIntersection": 0.8454,
+        "paletteMatch": 0.9617,
+        "detail": 0.4693,
+        "detailRaw": 0.5058,
+        "detailAdded": 0.0729,
+        "bands": 0.4
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 8,
+          "w": 21,
+          "h": 16
+        },
+        "build": {
+          "x": 15,
+          "y": 4,
+          "w": 16,
+          "h": 16
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "new-label",
+      "x": 0.5942,
+      "y": 0.4845,
+      "w": 0.305,
+      "h": 0.0248,
+      "kind": "text",
+      "score": {
+        "overall": 0.5033,
+        "structure": 0.5492,
+        "color": 0.9148,
+        "colorIntersection": 0.8654,
+        "paletteMatch": 0.9414,
+        "detail": 0,
+        "detailRaw": 0.0641,
+        "detailAdded": 0.25,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 7,
+          "w": 82,
+          "h": 12
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 74,
+          "h": 26
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region new-label is missing (detail 0%, structure 55%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "new-value",
+      "x": 0.5942,
+      "y": 0.5078,
+      "w": 0.339,
+      "h": 0.0364,
+      "kind": "text",
+      "score": {
+        "overall": 0.5663,
+        "structure": 0.5363,
+        "color": 0.8865,
+        "colorIntersection": 0.7831,
+        "paletteMatch": 0.9422,
+        "detail": 0.3658,
+        "detailRaw": 0.4595,
+        "detailAdded": 0.1875,
+        "bands": 0.2167
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 8,
+          "y": 7,
+          "w": 88,
+          "h": 24
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 85,
+          "h": 26
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "scope-label",
+      "x": 0.0497,
+      "y": 0.5573,
+      "w": 0.1715,
+      "h": 0.0219,
+      "kind": "text",
+      "score": {
+        "overall": 0.5617,
+        "structure": 0.5756,
+        "color": 0.8722,
+        "colorIntersection": 0.7892,
+        "paletteMatch": 0.9169,
+        "detail": 0.0582,
+        "detailRaw": 0.2093,
+        "detailAdded": 0.3021,
+        "bands": 0.4714
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 11,
+          "w": 40,
+          "h": 8
+        },
+        "build": {
+          "x": 6,
+          "y": 3,
+          "w": 42,
+          "h": 9
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "scope",
+      "x": 0.0497,
+      "y": 0.5797,
+      "w": 0.5366,
+      "h": 0.0272,
+      "kind": "text",
+      "score": {
+        "overall": 0.631,
+        "structure": 0.7807,
+        "color": 0.8977,
+        "colorIntersection": 0.8503,
+        "paletteMatch": 0.9232,
+        "detail": 0.1083,
+        "detailRaw": 0.2541,
+        "detailAdded": 0.2917,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 8,
+          "w": 174,
+          "h": 15
+        },
+        "build": {
+          "x": 6,
+          "y": 2,
+          "w": 171,
+          "h": 15
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "result-label",
+      "x": 0.0497,
+      "y": 0.6147,
+      "w": 0.1846,
+      "h": 0.0228,
+      "kind": "text",
+      "score": {
+        "overall": 0.5047,
+        "structure": 0.5588,
+        "color": 0.9011,
+        "colorIntersection": 0.8287,
+        "paletteMatch": 0.94,
+        "detail": 0,
+        "detailRaw": 0.077,
+        "detailAdded": 0.4167,
+        "bands": 0
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 9,
+          "w": 45,
+          "h": 9
+        },
+        "build": {
+          "x": 6,
+          "y": 0,
+          "w": 48,
+          "h": 24
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region result-label is missing (detail 0%, structure 56%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "result",
+      "x": 0.0497,
+      "y": 0.6327,
+      "w": 0.8966,
+      "h": 0.0481,
+      "kind": "text",
+      "score": {
+        "overall": 0.6945,
+        "structure": 0.8279,
+        "color": 0.9308,
+        "colorIntersection": 0.9081,
+        "paletteMatch": 0.9431,
+        "detail": 0.0523,
+        "detailRaw": 0.1773,
+        "detailAdded": 0.25,
+        "bands": 0.4
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 8,
+          "w": 307,
+          "h": 34
+        },
+        "build": {
+          "x": 6,
+          "y": 1,
+          "w": 340,
+          "h": 35
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "case-link",
+      "x": 0.0497,
+      "y": 0.6939,
+      "w": 0.4097,
+      "h": 0.0306,
+      "kind": "control",
+      "score": {
+        "overall": 0.7534,
+        "structure": 0.7124,
+        "color": 0.8814,
+        "colorIntersection": 0.7703,
+        "paletteMatch": 0.9412,
+        "detail": 0.6219,
+        "detailRaw": 0.7156,
+        "detailAdded": 0.1875,
+        "bands": 0.7
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 6,
+          "w": 141,
+          "h": 16
+        },
+        "build": {
+          "x": 5,
+          "y": 4,
+          "w": 143,
+          "h": 16
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "projects-rule",
+      "x": 0.0628,
+      "y": 0.7556,
+      "w": 0.8743,
+      "h": 0.001,
+      "kind": "chrome",
+      "score": {
+        "overall": 1,
+        "structure": 0.9999,
+        "color": 1,
+        "colorIntersection": 1,
+        "paletteMatch": 1,
+        "detail": 1,
+        "detailRaw": 1,
+        "detailAdded": 0,
+        "bands": 1
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": null,
+        "build": null
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "projects-label",
+      "x": 0.0497,
+      "y": 0.7794,
+      "w": 0.4516,
+      "h": 0.0238,
+      "kind": "text",
+      "score": {
+        "overall": 0.5536,
+        "structure": 0.6132,
+        "color": 0.9,
+        "colorIntersection": 0.8626,
+        "paletteMatch": 0.9202,
+        "detail": 0,
+        "detailRaw": 0.0583,
+        "detailAdded": 0.1979,
+        "bands": 0.22
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 9,
+          "w": 131,
+          "h": 8
+        },
+        "build": {
+          "x": 7,
+          "y": 17,
+          "w": 167,
+          "h": 8
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region projects-label is missing (detail 0%, structure 61%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "projects-title",
+      "x": 0.0497,
+      "y": 0.7998,
+      "w": 0.6401,
+      "h": 0.0423,
+      "kind": "text",
+      "score": {
+        "overall": 0.4352,
+        "structure": 0.3509,
+        "color": 0.8915,
+        "colorIntersection": 0.8345,
+        "paletteMatch": 0.9222,
+        "detail": 0.0479,
+        "detailRaw": 0.2041,
+        "detailAdded": 0.3125,
+        "bands": 0.297
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 9,
+          "w": 228,
+          "h": 29
+        },
+        "build": {
+          "x": 6,
+          "y": 0,
+          "w": 222,
+          "h": 25
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region projects-title (text) is contradicted (structure 35%, detail added 31%): the composition of this text region differs from the comp; re-derive it from the spec box"
+      ],
+      "rawVerdict": "contradicted"
+    },
+    {
+      "id": "project-one",
+      "x": 0.0497,
+      "y": 0.8503,
+      "w": 0.5641,
+      "h": 0.0277,
+      "kind": "text",
+      "score": {
+        "overall": 0.5156,
+        "structure": 0.4391,
+        "color": 0.9034,
+        "colorIntersection": 0.8612,
+        "paletteMatch": 0.9261,
+        "detail": 0.2681,
+        "detailRaw": 0.4296,
+        "detailAdded": 0.3229,
+        "bands": 0.3
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 9,
+          "w": 174,
+          "h": 17
+        },
+        "build": {
+          "x": 5,
+          "y": 2,
+          "w": 186,
+          "h": 19
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region project-one (text) is contradicted (structure 44%, detail added 32%): the composition of this text region differs from the comp; re-derive it from the spec box"
+      ],
+      "rawVerdict": "contradicted"
+    },
+    {
+      "id": "project-one-tech",
+      "x": 0.0497,
+      "y": 0.8737,
+      "w": 0.6937,
+      "h": 0.0272,
+      "kind": "text",
+      "score": {
+        "overall": 0.7514,
+        "structure": 0.7485,
+        "color": 0.943,
+        "colorIntersection": 0.9049,
+        "paletteMatch": 0.9635,
+        "detail": 0.6093,
+        "detailRaw": 0.6665,
+        "detailAdded": 0.1146,
+        "bands": 0.5
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 0,
+          "w": 226,
+          "h": 24
+        },
+        "build": {
+          "x": 6,
+          "y": 11,
+          "w": 243,
+          "h": 13
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "project-one-link",
+      "x": 0.8783,
+      "y": 0.8537,
+      "w": 0.0733,
+      "h": 0.0287,
+      "kind": "control",
+      "score": {
+        "overall": 0.7157,
+        "structure": 0.7972,
+        "color": 0.9452,
+        "colorIntersection": 0.9107,
+        "paletteMatch": 0.9638,
+        "detail": 0.1305,
+        "detailRaw": 0.2243,
+        "detailAdded": 0.1875,
+        "bands": 0
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 11,
+          "w": 14,
+          "h": 11
+        },
+        "build": {
+          "x": 5,
+          "y": 16,
+          "w": 15,
+          "h": 15
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "project-rule",
+      "x": 0.0628,
+      "y": 0.913,
+      "w": 0.8743,
+      "h": 0.001,
+      "kind": "chrome",
+      "score": {
+        "overall": 1,
+        "structure": 1,
+        "color": 1,
+        "colorIntersection": 1,
+        "paletteMatch": 1,
+        "detail": 1,
+        "detailRaw": 1,
+        "detailAdded": 0,
+        "bands": 1
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": null,
+        "build": null
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "project-two",
+      "x": 0.0497,
+      "y": 0.9271,
+      "w": 0.5654,
+      "h": 0.0301,
+      "kind": "text",
+      "score": {
+        "overall": 0.5778,
+        "structure": 0.6658,
+        "color": 0.9054,
+        "colorIntersection": 0.862,
+        "paletteMatch": 0.9287,
+        "detail": 0,
+        "detailRaw": 0.0842,
+        "detailAdded": 0.2292,
+        "bands": 0.1857
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 168,
+          "h": 18
+        },
+        "build": {
+          "x": 6,
+          "y": 23,
+          "w": 189,
+          "h": 9
+        }
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region project-two is missing (detail 0%, structure 67%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "project-two-tech",
+      "x": 0.0497,
+      "y": 0.9543,
+      "w": 0.6937,
+      "h": 0.0272,
+      "kind": "text",
+      "score": {
+        "overall": 0.6008,
+        "structure": 0.6722,
+        "color": 0.9022,
+        "colorIntersection": 0.8103,
+        "paletteMatch": 0.9517,
+        "detail": 0.0743,
+        "detailRaw": 0.2722,
+        "detailAdded": 0.3958,
+        "bands": 0.28
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 7,
+          "w": 219,
+          "h": 15
+        },
+        "build": {
+          "x": 5,
+          "y": 0,
+          "w": 190,
+          "h": 29
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    },
+    {
+      "id": "project-two-link",
+      "x": 0.8783,
+      "y": 0.932,
+      "w": 0.0733,
+      "h": 0.0277,
+      "kind": "control",
+      "score": {
+        "overall": 0.7356,
+        "structure": 0.9068,
+        "color": 0.9358,
+        "colorIntersection": 0.9381,
+        "paletteMatch": 0.9346,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 7,
+          "y": 10,
+          "w": 14,
+          "h": 12
+        },
+        "build": null
+      },
+      "blocking": true,
+      "blockingReasons": [
+        "region project-two-link is missing (detail 0%, structure 91%): the comp shows material the build does not"
+      ],
+      "rawVerdict": "missing"
+    },
+    {
+      "id": "header",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 0.0534,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.8906,
+        "structure": 0.9104,
+        "color": 0.9632,
+        "colorIntersection": 0.9467,
+        "paletteMatch": 0.9721,
+        "detail": 0.7844,
+        "detailRaw": 0.826,
+        "detailAdded": 0.0833,
+        "bands": 0.9
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 23,
+          "y": 20,
+          "w": 344,
+          "h": 15
+        },
+        "build": {
+          "x": 25,
+          "y": 21,
+          "w": 338,
+          "h": 19
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "hero",
+      "x": 0,
+      "y": 0.0729,
+      "w": 1,
+      "h": 0.2624,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.847,
+        "structure": 0.7622,
+        "color": 0.9261,
+        "colorIntersection": 0.8647,
+        "paletteMatch": 0.9591,
+        "detail": 0.8109,
+        "detailRaw": 0.8162,
+        "detailAdded": 0.0104,
+        "bands": 0.9733
+      },
+      "verdict": "match",
+      "inkBox": {
+        "comp": {
+          "x": 24,
+          "y": 15,
+          "w": 343,
+          "h": 225
+        },
+        "build": {
+          "x": 24,
+          "y": 14,
+          "w": 342,
+          "h": 226
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "match"
+    },
+    {
+      "id": "project-list",
+      "x": 0,
+      "y": 0.7629,
+      "w": 1,
+      "h": 0.2332,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7226,
+        "structure": 0.649,
+        "color": 0.9608,
+        "colorIntersection": 0.9392,
+        "paletteMatch": 0.9724,
+        "detail": 0.5211,
+        "detailRaw": 0.5888,
+        "detailAdded": 0.1354,
+        "bands": 0.8333
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 25,
+          "y": 26,
+          "w": 339,
+          "h": 197
+        },
+        "build": {
+          "x": 24,
+          "y": 34,
+          "w": 339,
+          "h": 205
+        }
+      },
+      "blocking": false,
+      "blockingReasons": [],
+      "rawVerdict": "drift"
+    }
+  ],
+  "files": {
+    "sideBySide": "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/side-by-side.png",
+    "heatmap": "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/heatmap.png",
+    "regionFiles": [
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/brand.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/menu.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/expertise.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/headline.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/intro.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/resume.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/contact.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/hero-rule.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/feature.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/feature-label.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/feature-title.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/feature-desc.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/previous-label.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/previous-value.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/comparison-arrow.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/new-label.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/new-value.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/scope-label.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/scope.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/result-label.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/result.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/case-link.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/projects-rule.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/projects-label.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/projects-title.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-one.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-one-tech.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-one-link.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-rule.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-two.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-two-tech.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-two-link.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/header.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/hero.png",
+      "/Users/shubhamwankar/code/codex-project/portfolio/.impeccable/review/diff/hero/regions/project-list.png"
+    ]
+  },
+  "interpretation": "hero-gate",
+  "measurementsAvailable": true,
+  "gate": {
+    "ok": false,
+    "reasons": [
+      "region feature-desc is missing (detail 0%, structure 66%): the comp shows material the build does not",
+      "region previous-label is missing (detail 0%, structure 49%): the comp shows material the build does not",
+      "region new-label is missing (detail 0%, structure 55%): the comp shows material the build does not",
+      "region result-label is missing (detail 0%, structure 56%): the comp shows material the build does not",
+      "region projects-label is missing (detail 0%, structure 61%): the comp shows material the build does not",
+      "region project-two is missing (detail 0%, structure 67%): the comp shows material the build does not",
+      "region project-two-link is missing (detail 0%, structure 91%): the comp shows material the build does not",
+      "region feature-title (text) is contradicted (structure 40%, detail added 38%): the composition of this text region differs from the comp; re-derive it from the spec box",
+      "region projects-title (text) is contradicted (structure 35%, detail added 31%): the composition of this text region differs from the comp; re-derive it from the spec box",
+      "region project-one (text) is contradicted (structure 44%, detail added 32%): the composition of this text region differs from the comp; re-derive it from the spec box"
+    ],
+    "advisories": [
+      "(advisory, above the 72% bar; fix in the polish pass before responsive) 8 readings:",
+      "  text previous-label: cap height 8px in the build, 10.9px in the comp (-27%); set font-size so the cap height renders at 10.9px",
+      "  text new-label: cap height 8px in the build, 10.8px in the comp (-26%); set font-size so the cap height renders at 10.8px",
+      "  text project-one-tech: cap height 9.4px in the build, 12.3px in the comp (-24%); set font-size so the cap height renders at 12.3px",
+      "  text project-two: cap height 9.1px in the build, 13.1px in the comp (-31%); set font-size so the cap height renders at 13.1px",
+      "  text feature-desc: 1 line in the build, 2 in the comp; the measure (max-width, font-size, letter-spacing) wraps it differently, so the block is a different shape",
+      "  text project-two-tech: the face renders 56% heavier than the comp's (ink density 0.75 vs 0.48); drop a weight step or use the ranked face",
+      "  text result-label: ink is #656f7d in the build, #9ab3c6 in the comp; use the comp's colour",
+      "  text project-two: its first line starts 13px lower than in the comp (23px vs 10px into the region box); the spacing above it is too large"
+    ],
+    "unscopedReasons": []
+  },
+  "rawReport": ".impeccable/review/diff/hero/raw-report.json"
+}

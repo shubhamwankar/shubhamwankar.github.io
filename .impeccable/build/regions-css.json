@@ -1,0 +1,393 @@
+{
+  "regions": [
+    {
+      "id": "brand",
+      "kind": "text",
+      "note": "Portfolio name in bold navy sans serif",
+      "box": {
+        "x": 0.04450261780104712,
+        "y": 0.009718172983479106,
+        "w": 0.43848167539267013,
+        "h": 0.03012633624878523
+      }
+    },
+    {
+      "id": "menu",
+      "kind": "control",
+      "note": "Navy mobile menu icon",
+      "box": {
+        "x": 0.8599476439790575,
+        "y": 0.008746355685131196,
+        "w": 0.10078534031413612,
+        "h": 0.03595724003887269
+      }
+    },
+    {
+      "id": "expertise",
+      "kind": "text",
+      "note": "Steel blue expertise text",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.08114674441205054,
+        "w": 0.5366492146596858,
+        "h": 0.02089407191448008
+      }
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Bold navy heading Building AI that works in production.",
+      "box": {
+        "x": 0.04842931937172775,
+        "y": 0.1054421768707483,
+        "w": 0.9031413612565445,
+        "h": 0.07871720116618076
+      }
+    },
+    {
+      "id": "intro",
+      "kind": "text",
+      "note": "Two lines of steel blue supporting text",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.19047619047619047,
+        "w": 0.887434554973822,
+        "h": 0.04470359572400389
+      }
+    },
+    {
+      "id": "resume",
+      "kind": "control",
+      "note": "Solid teal resume link with white text and arrow",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.25072886297376096,
+        "w": 0.46465968586387435,
+        "h": 0.056365403304178816
+      }
+    },
+    {
+      "id": "contact",
+      "kind": "control",
+      "note": "Teal outlined contact link",
+      "box": {
+        "x": 0.5170157068062827,
+        "y": 0.25072886297376096,
+        "w": 0.43324607329842935,
+        "h": 0.056365403304178816
+      }
+    },
+    {
+      "id": "hero-rule",
+      "kind": "chrome",
+      "note": "Thin blue gray horizontal divider",
+      "box": {
+        "x": 0.06282722513089005,
+        "y": 0.3226433430515063,
+        "w": 0.8743455497382199,
+        "h": 0.0009718172983479105
+      }
+    },
+    {
+      "id": "feature",
+      "kind": "chrome",
+      "note": "Flat pale blue feature section background",
+      "container": true,
+      "box": {
+        "x": 0.0,
+        "y": 0.33867832847424684,
+        "w": 1.0,
+        "h": 0.40476190476190477
+      }
+    },
+    {
+      "id": "feature-label",
+      "kind": "text",
+      "note": "Featured work label in steel blue",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.36151603498542273,
+        "w": 0.331151832460733,
+        "h": 0.0228377065111759
+      }
+    },
+    {
+      "id": "feature-title",
+      "kind": "text",
+      "note": "Executive evaluation heading in navy",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.38629737609329445,
+        "w": 0.8350785340314136,
+        "h": 0.03547133138969873
+      }
+    },
+    {
+      "id": "feature-desc",
+      "kind": "text",
+      "note": "Two line AI microservice description",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.42419825072886297,
+        "w": 0.8979057591623036,
+        "h": 0.04664723032069971
+      }
+    },
+    {
+      "id": "previous-label",
+      "kind": "text",
+      "note": "Previous service label",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.4844509232264334,
+        "w": 0.34554973821989526,
+        "h": 0.02478134110787172
+      }
+    },
+    {
+      "id": "previous-value",
+      "kind": "text",
+      "note": "About eight minute processing time",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.5077745383867833,
+        "w": 0.2918848167539267,
+        "h": 0.03644314868804665
+      }
+    },
+    {
+      "id": "comparison-arrow",
+      "kind": "control",
+      "note": "Right arrow separating processing times",
+      "box": {
+        "x": 0.43324607329842935,
+        "y": 0.5092322643343051,
+        "w": 0.09424083769633508,
+        "h": 0.03012633624878523
+      }
+    },
+    {
+      "id": "new-label",
+      "kind": "text",
+      "note": "New service label",
+      "box": {
+        "x": 0.5942408376963351,
+        "y": 0.4844509232264334,
+        "w": 0.30497382198952877,
+        "h": 0.02478134110787172
+      }
+    },
+    {
+      "id": "new-value",
+      "kind": "text",
+      "note": "Under one minute processing time in teal",
+      "box": {
+        "x": 0.5942408376963351,
+        "y": 0.5077745383867833,
+        "w": 0.3390052356020942,
+        "h": 0.03644314868804665
+      }
+    },
+    {
+      "id": "scope-label",
+      "kind": "text",
+      "note": "Scope label",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.5573372206025268,
+        "w": 0.17146596858638743,
+        "h": 0.021865889212827987
+      }
+    },
+    {
+      "id": "scope",
+      "kind": "text",
+      "note": "Twenty executives supported",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.5796890184645287,
+        "w": 0.5366492146596858,
+        "h": 0.027210884353741496
+      }
+    },
+    {
+      "id": "result-label",
+      "kind": "text",
+      "note": "Result label",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.6146744412050534,
+        "w": 0.18455497382198952,
+        "h": 0.0228377065111759
+      }
+    },
+    {
+      "id": "result",
+      "kind": "text",
+      "note": "Qualitative evaluation consistency result",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.6326530612244898,
+        "w": 0.8965968586387435,
+        "h": 0.048104956268221574
+      }
+    },
+    {
+      "id": "case-link",
+      "kind": "control",
+      "note": "Teal case study link with arrow",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.6938775510204082,
+        "w": 0.4096858638743455,
+        "h": 0.030612244897959183
+      }
+    },
+    {
+      "id": "projects-rule",
+      "kind": "chrome",
+      "note": "Thin horizontal section divider",
+      "box": {
+        "x": 0.06282722513089005,
+        "y": 0.7555879494655005,
+        "w": 0.8743455497382199,
+        "h": 0.0009718172983479105
+      }
+    },
+    {
+      "id": "projects-label",
+      "kind": "text",
+      "note": "Selected projects label",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.7793974732750243,
+        "w": 0.45157068062827227,
+        "h": 0.023809523809523808
+      }
+    },
+    {
+      "id": "projects-title",
+      "kind": "text",
+      "note": "Selected projects heading",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.7998056365403304,
+        "w": 0.6400523560209425,
+        "h": 0.04227405247813411
+      }
+    },
+    {
+      "id": "project-one",
+      "kind": "text",
+      "note": "Text to SQL project title",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.8503401360544217,
+        "w": 0.5641361256544503,
+        "h": 0.027696793002915453
+      }
+    },
+    {
+      "id": "project-one-tech",
+      "kind": "text",
+      "note": "Technology list for Text to SQL",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.8736637512147716,
+        "w": 0.693717277486911,
+        "h": 0.027210884353741496
+      }
+    },
+    {
+      "id": "project-one-link",
+      "kind": "control",
+      "note": "Project repository arrow",
+      "box": {
+        "x": 0.8782722513089005,
+        "y": 0.8537414965986394,
+        "w": 0.07329842931937172,
+        "h": 0.028668610301263362
+      }
+    },
+    {
+      "id": "project-rule",
+      "kind": "chrome",
+      "note": "Thin project divider",
+      "box": {
+        "x": 0.06282722513089005,
+        "y": 0.913022351797862,
+        "w": 0.8743455497382199,
+        "h": 0.0009718172983479105
+      }
+    },
+    {
+      "id": "project-two",
+      "kind": "text",
+      "note": "Next word prediction project title",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.9271137026239067,
+        "w": 0.5654450261780105,
+        "h": 0.03012633624878523
+      }
+    },
+    {
+      "id": "project-two-tech",
+      "kind": "text",
+      "note": "Technology list for next word prediction",
+      "box": {
+        "x": 0.049738219895287955,
+        "y": 0.9543245869776482,
+        "w": 0.693717277486911,
+        "h": 0.027210884353741496
+      }
+    },
+    {
+      "id": "project-two-link",
+      "kind": "control",
+      "note": "Project repository arrow",
+      "box": {
+        "x": 0.8782722513089005,
+        "y": 0.9319727891156463,
+        "w": 0.07329842931937172,
+        "h": 0.027696793002915453
+      }
+    },
+    {
+      "id": "header",
+      "kind": "chrome",
+      "note": "Header containing name and mobile navigation",
+      "container": true,
+      "box": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 0.05344995140913508
+      }
+    },
+    {
+      "id": "hero",
+      "kind": "chrome",
+      "note": "Introduction containing expertise heading copy and actions",
+      "container": true,
+      "box": {
+        "x": 0.0,
+        "y": 0.0728862973760933,
+        "w": 1.0,
+        "h": 0.26239067055393583
+      }
+    },
+    {
+      "id": "project-list",
+      "kind": "chrome",
+      "note": "Project section containing its headings and individual project rows",
+      "container": true,
+      "box": {
+        "x": 0.0,
+        "y": 0.7628765792031098,
+        "w": 1.0,
+        "h": 0.23323615160349853
+      }
+    }
+  ]
+}

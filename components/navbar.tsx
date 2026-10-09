@@ -1,170 +1,40 @@
-"use client";
+"use client"
 
-import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
-import { Github, Linkedin, Twitter } from "@/components/icons";
-import { Button } from "@/components/ui/button";
-import { ModeToggle } from "@/components/mode-toggle";
-import { useMediaQuery } from "@/hooks/use-media-query";
-import { useTheme } from "next-themes";
-
-const navLinks = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
-];
+import { useEffect, useRef, useState } from "react"
+import { Menu, X } from "lucide-react"
+import { ModeToggle } from "@/components/mode-toggle"
+import ScrollProgress from "@/components/scroll-progress"
+import { navigation, profile } from "@/lib/portfolio-data"
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const isDesktop = useMediaQuery("(min-width: 768px)");
-  const { theme } = useTheme();
-
+  const [open, setOpen] = useState(false)
+  const menuButton = useRef<HTMLButtonElement>(null)
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
-    if (isDesktop && isOpen) {
-      setIsOpen(false);
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape" && open) { setOpen(false); menuButton.current?.focus() }
     }
-  }, [isDesktop, isOpen]);
-
+    function onResize() { if (window.innerWidth >= 820) setOpen(false) }
+    document.addEventListener("keydown", onKeyDown)
+    window.addEventListener("resize", onResize)
+    return () => {
+      document.removeEventListener("keydown", onKeyDown)
+      window.removeEventListener("resize", onResize)
+    }
+  }, [open])
   return (
-    <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled || isOpen
-          ? "bg-background/80 backdrop-blur-md shadow-md"
-          : "bg-transparent"
-      }`}
-    >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <a href="#home" className="text-xl font-bold">
-              Shubham Wankar
-            </a>
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-sm font-medium hover:text-primary transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
-          </nav>
-
-          <div className="hidden md:flex items-center space-x-4">
-            <a
-              href="https://github.com/shubhamwankar"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <a
-              href="https://linkedin.com/in/shubham-wankar"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              <Linkedin className="h-5 w-5" />
-            </a>
-            <a
-              href="https://twitter.com/ShubhamWankar10"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-            </a>
-            <ModeToggle />
-          </div>
-
-          {/* Mobile Navigation Toggle */}
-          <div className="flex md:hidden items-center space-x-4">
-            <ModeToggle />
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setIsOpen(!isOpen)}
-              aria-label="Toggle menu"
-            >
-              {isOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
-            </Button>
-          </div>
-        </div>
+    <header className="site-header">
+      <ScrollProgress />
+      <div className="header-inner page-width">
+        <a className="wordmark" href="#home" onClick={() => setOpen(false)}>{profile.name}</a>
+        <nav aria-label="Main navigation" id="main-navigation" className={`main-navigation ${open ? "is-open" : ""}`}>
+          {navigation.map(item => <a key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</a>)}
+          <div className="mobile-theme"><span>Appearance</span><ModeToggle /></div>
+        </nav>
+        <div className="desktop-theme"><ModeToggle /></div>
+        <button ref={menuButton} className="icon-button menu-toggle" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} aria-controls="main-navigation" onClick={() => setOpen(!open)}>
+          {open ? <X size={23} aria-hidden="true" /> : <Menu size={23} aria-hidden="true" />}
+        </button>
       </div>
-
-      {/* Mobile Navigation Menu */}
-      {isOpen && (
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.2 }}
-          className="md:hidden bg-background border-b border-border"
-        >
-          <div className="container mx-auto px-4 py-4">
-            <nav className="flex flex-col space-y-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-foreground hover:text-primary py-2 transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {link.name}
-                </a>
-              ))}
-              <div className="flex space-x-4 py-2">
-                <a
-                  href="https://github.com/shubhamwankar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-foreground hover:text-primary transition-colors"
-                >
-                  <Github className="h-5 w-5" />
-                </a>
-                <a
-                  href="https://linkedin.com/in/shubham-wankar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-foreground hover:text-primary transition-colors"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
-                <a
-                  href="https://twitter.com/ShubhamWankar10"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-foreground hover:text-primary transition-colors"
-                >
-                  <Twitter className="h-5 w-5" />
-                </a>
-              </div>
-            </nav>
-          </div>
-        </motion.div>
-      )}
     </header>
-  );
+  )
 }
